@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+
+.hero-section{
+    margin:75px 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80vh; */
+}
+
+.left-cont{
+    max-width: 500px;
+    margin: 20px;
+}
+h1{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 24px 0 32px;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 0 40px;
+    line-height: 150%;
+}
+.get-playstore{
+    display: flex;
+}
+.play-img{
+    margin-right: 35px;
+}
+.hero-img{
+    display: block;
+    /* margin: auto 30px; */
+    width: 520px;
+    height: 450px;
+
+}
+
+@media (min-width:350px) and (max-width:1024px) {
+    .hero-section{
+        margin:50px 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    
+    }
+    .left-cont{
+        width: 100%;
+    }
+    .hero-img{
+        width: 359px;
+        height: 400px;
+    }
+
+}
+
+@media (min-width:350px) and (max-width:450px){
+    .get-playstore{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .play-img{
+        margin-top: 15px;
+    }
+}

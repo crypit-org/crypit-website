@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+
+.testimonial-section{
+    margin: 50px auto;
+    background-color: #0f2310;
+    padding: 30px 0 50px;
+}
+.test-head{
+    font-family: 'Barlow', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 24px 0;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+}
+
+.test-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.test-box{
+    padding: 24px;
+    margin: 12px;
+    border: 1px solid rgb(92, 91, 89);
+    border-radius: 8px;
+    text-align: left;
+    width:75%;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-detail{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    margin: 0 0 0px;
+    line-height: 120%;
+    color: #fff;
+}
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.founder{
+    color: #fff;
+    text-align: left;
+    margin: auto;
+}
+.stars{
+    text-align: center;
+    margin:20px auto;
+}
+.coin{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.box-detail-head{
+    font-weight: 600;
+    font-size: 26px;
+    color: #fff;
+    margin: 0 0 10px;
+}
+.react-multi-carousel-track{
+    margin-bottom:30px !important ;
+}
+.react-multi-carousel-dot-list{
+    bottom: -2px !important;
+}
+@media (min-width:350px) and (max-width:1024px){
+    .test-cont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+    }
+    .test-box{
+        padding: 35px 20px;
+        width: 80%;
+        height: 275px;
+        align-items:flex-start;
+    }
+    .react-multi-carousel-dot-list{
+        /* display: none !important; */
+        display: flex;
+        flex-direction: row !important;
+    }
+}

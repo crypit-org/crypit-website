@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+.team-cont{
+    padding: 2rem 0;
+
+}
+.title{
+   text-align: center;
+   margin: 20px ;
+   
+}
+.team-head{
+    font-family: 'Barlow', sans-serif;
+font-size: 44px;
+font-weight: 800;
+margin: 24px 0 40px;
+line-height: 120%;
+letter-spacing: 1px;
+color: #000;
+text-align: center;
+}
+/* p{
+    text-align: center;
+    color: greenyellow;
+    opacity: 0.5;
+} */
+.sellercards{
+        /* display: grid; */
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+        grid-gap: 3rem;
+        /* padding: 0.2rem 10rem 0.2rem 10rem; */
+        margin: 2rem 0 4rem 0;
+    }
+    .team{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    
+ }
+ .member{  
+    position: relative;
+}
+.card{
+    transition: .4s all ease-in;
+   border: none;
+   margin: 25px auto;
+   }
+.card-img-top{
+    box-shadow: 0 0 25px rgba(0,0,0,.05);
+    width: 325px;
+    height: 325px;
+    margin-left: 25px;
+    }
+    .carousel-control-next-icon 
+    {
+    padding: 0 4px 0 0; 
+    }
+.product-detail {
+    position: absolute;
+    width:100%;
+    height: 75px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.35s;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+    
+    }
+.card-title
+{
+color: #fff;
+text-transform: uppercase;
+font-size: 22px;
+font-weight: 600;
+line-height: 24px;
+margin: 3px 0;
+
+}
+.subheading {
+    font-weight: 400;
+    margin:5px 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #edd502;
+    }
+blockquote 
+{
+color: #fff;
+padding: 0;
+margin:15px 0;
+font-style: italic;
+font-size: 16px;
+
+}
+.card:hover .product-detail {
+    height: calc(100%);
+    padding-top: 20px;
+    }
+
+    @media (min-width:350px) and (max-width:1024px)   {
+        .team-head{
+        font-size: 30px;
+        }
+    }

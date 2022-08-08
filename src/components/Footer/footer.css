@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+
+.footer{
+    background-color: #0f2310;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mail-input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin: auto 20px;
+    padding: 10px;
+    font-family: 'Barlow', sans-serif;
+}
+.btn-submit{
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;  
+    background: #edd502;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+.contact-no{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    margin:30px 20px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links{
+display: flex;
+}
+.logo-footer{
+    text-align: center;
+    color: aqua;
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    display: block;
+    margin: 25px auto 0;
+}
+.mail-footer{
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px;
+    line-height: 120%;
+    color: #fff;
+}
+.section-footer{
+    margin: 20px auto;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+}
+/* li{
+    margin: 10px 25px;
+} */
+@media (min-width:350px) and (max-width:750px){
+    .footer{
+display: flex;
+flex-direction: column-reverse;
+    }
+    ul,.mail{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-no{
+        margin:50px auto;
+        text-align: center;
+    }
+    .mail-input{
+        width: 180px;}
+}
