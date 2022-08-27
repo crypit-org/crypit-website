@@ -5,6 +5,8 @@ import Avatar2 from "../../assests/images/avatar2.jpg";
 import Avatar3 from "../../assests/images/avatar3.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Fade from 'react-reveal/Fade';
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -27,10 +29,11 @@ const responsive = {
 
 function Testimonial(props) {
   return (
-    <div className="testimonial-section" id="testimonial">
+    <div className="testimonial-section" >
       <h1 className="test-head">Testimonials</h1>
 
       <Carousel showDots={true} responsive={responsive} >
+      <Fade cascade>
         <div className="test-box">
         <p className="box-detail-head">"Save a lot of time."</p>
           <p className="box-detail">
@@ -45,6 +48,8 @@ function Testimonial(props) {
             </p>
           </div>
         </div>
+        </Fade>
+       <Fade cascade>
         <div className="test-box">
         <p className="box-detail-head">"Flexible to use."</p>
           <p className="box-detail">
@@ -60,6 +65,8 @@ function Testimonial(props) {
             </p>
           </div>
         </div>
+        </Fade>
+        <Fade cascade>
         <div className="test-box">
         <p className="box-detail-head">"Super easy transaction"</p>
           <p className="box-detail">
@@ -74,6 +81,8 @@ function Testimonial(props) {
             </p>
           </div>
         </div>
+        </Fade>
+        <Fade cascade>
         <div className="test-box">
           <p className="box-detail-head">"Easy to use."</p>
           <p className="box-detail">
@@ -88,32 +97,7 @@ function Testimonial(props) {
             </p>
           </div>
         </div>
-        {/* <div className="test-box">
-          <p className="box-detail">
-          “Wow. I just updated my site and it was SO SIMPLE. I am blown away. You guys truly kick ass. Thanks for being so awesome. High fives!”
-          </p>
-          <p className='stars'>⭐⭐⭐⭐</p>
-          <div className="profile">
-            <img className="coin" src={Avatar2} alt="aave" />
-            <p className="founder">
-              Vitalik Buterin <br />
-              Co-founder, Ethereum
-            </p>
-          </div>
-        </div>
-        <div className="test-box">
-          <p className="box-detail">
-          “You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save."
-          </p>
-          <p className='stars'>⭐⭐⭐⭐</p>
-          <div className="profile">
-            <img className="coin" src={Avatar3} alt="aave" />
-            <p className="founder">
-              Vitalik Buterin <br />
-              Co-founder, Ethereum
-            </p>
-          </div>
-        </div> */}
+        </Fade>
       </Carousel>
     </div>
   );

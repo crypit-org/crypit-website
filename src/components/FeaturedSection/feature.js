@@ -4,20 +4,24 @@ import FeatureImg1 from "../../assests/images/f-c.png"
 import FeatureImg2 from "../../assests/images/flexible.png"
 import FeatureImg3 from "../../assests/images/bank1.0.png"
 import FeatureImg4 from "../../assests/images/earn2.png"
+import Fade from 'react-reveal/Fade';
+
 
 function Feature(props) {
     return (
-        <div className='feature-section' id="feature">
-            <h1 className='feature-head'> Features </h1>
+        <div className='feature-section' >
             <div className='feature-cont'>
                 <div className='cont-1'>
                     <img src={FeatureImg1} alt="img1" width={390}/>
+                    <Fade right>
                     <div className='detail1'>
                         <h1 className='detail-head'>Fiat &#60; &#62; Crypto</h1>
                         <p className='detail-para'>Sit and relax between your Fiat &amp; Crypto, because CrypIT made Fiat to Crypto transfers easy, flexible &amp; more secured</p>
                     </div>
+                    </Fade>
                 </div>
                 <div className='cont-2'>
+                <Fade left>
                     <div className='detail2'>
                         <h1 className='detail-head'>Flexible </h1>
   
@@ -28,10 +32,12 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                     </div>
+                    </Fade>
                     <img  src={FeatureImg2} alt="img1" width={350} height={305}/>
                 </div>
                 <div className='cont-1'>
                     <img src={FeatureImg3} alt="img1" width={400}/>
+                    <Fade right>
                     <div className='detail1'>
                         <h1 className='detail-head'>Super-Easy</h1>
                         <ul className='detail-list'>
@@ -41,9 +47,11 @@ function Feature(props) {
                                 <li>No more confusion with all crypto buzzwords &amp; complexity</li>
                             </ul>
                     </div>
+                    </Fade>
                 </div>
 
                 <div className='cont-2'>
+                <Fade left>
                     <div className='detail2'>
                         <h1 className='detail-head'>Earn </h1>
   
@@ -53,6 +61,7 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                     </div>
+                    </Fade>
                     <img  src={FeatureImg4} alt="img1" width={300}/>
                 </div>
             </div>

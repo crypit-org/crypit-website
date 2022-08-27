@@ -1,24 +1,27 @@
 
 import './App.css';
-import About from './components/AboutSection/about';
 import ScrollToTop from './components/backToTop';
-import Feature from './components/FeaturedSection/feature';
-import Footer from './components/Footer/footer';
-import HeroSection from './components/HeroSection/hero';
+import {
+	Route,
+	Routes,  useRoutes 
+} from "react-router-dom";
+import Home from './pages/Home';
+import Feature from './pages/Feature';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import Navbar from './components/Navbar/navbar';
-import Testimonial from './components/Testimonial/testimonial';
-import Team from './components/OurTeam/Team';
-
+import Footer from './components/Footer/footer';
 function App() {
   return (
     <div>
       <Navbar/>
-      <HeroSection/>
-      <About/>
-      <Feature/>
-      <Testimonial/>
-      {/* <Team/> */}
-      <Footer/>
+     <Routes>
+     <Route path="*" element={<Home />} />
+     <Route path="/feature" element={<Feature />} />
+     <Route path="/about" element={<About />} />
+     <Route path="/contact" element={<Contact />} />
+     </Routes>
+     <Footer/>
       <ScrollToTop/>
     </div>
   );

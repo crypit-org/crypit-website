@@ -1,23 +1,40 @@
 import React from 'react';
 import "./hero.css"
-import AppleStore from "../../assests/images/app-store-light.svg"
-import GoogleStore from "../../assests/images/google-play-light.svg"
 import BannerImage from "../../assests/images/hero-img4.png"
-
+import Fade from 'react-reveal/Fade';
+import 'antd/dist/antd.css';
+import { Button } from 'antd';
+import { AiFillPlayCircle } from 'react-icons/ai';
+import { IconContext } from "react-icons";
 
 function HeroSection(props) {
     return (
       
         <div className='hero-section'>
+         
             <div className='left-cont'>
-                <h1>HODL, EARN, SPEDN</h1>
-                <p>We built CrypIT to make your Fiat &#60; &#62;  Crypto transfers &amp; spendings much easier and seamless than ever.</p>
-                <div className='get-playstore'>
-                    <img className='play-img'  src={AppleStore} alt="appstore"/>
-                    <img  className='play-img' src={GoogleStore} alt="googleplay"/> 
-                </div>
+            <Fade left>
+                <h1 className='hero-section-header'>HODL, EARN, SPEDN</h1> </Fade>
+                <Fade left>
+                <p>A crypto payment app that makes your Fiat &#60; &#62; Crypto transfers &amp; spendings much easier and seamless than ever.</p></Fade>
+                <Fade left> <div className='get-playstore'>
+                       <Button type="primary">Join Early Access</Button>
+                       <Button type="primary" className='how-work'>
+                        <div style={{display:'flex',alignItem:'center'}}>
+                       <IconContext.Provider
+                value={{
+                  size: "1.5em",
+                  color: "#0f2310",    
+                  style:{marginRight:5}  ,         
+                  className: "global-class-name",
+                }}
+              >
+              <AiFillPlayCircle/>
+              </IconContext.Provider>
+                        How CrypIT works </div></Button>
+                </div></Fade>
             </div>
-
+           
             <div className='right-cont'>
                 <img className='hero-img' src={BannerImage} alt="hero "/>
             </div>

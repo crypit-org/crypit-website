@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');;
 
 .pages {
     color: #316685;
@@ -40,7 +40,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
 
@@ -57,7 +57,18 @@
     padding: 0.5rem 1rem;
     height: 100%;
     border-bottom: 3px solid transparent;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav-links-active {
+    color:"red";
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+   font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 18px;
     cursor: pointer;

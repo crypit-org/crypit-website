@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .upcoming-section{
     margin: 100px auto;
 }
 .up-head{
     text-align: center;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 50px; 
     font-weight: 800;
     margin: 0px 0 20px;
@@ -14,7 +14,7 @@
 }
 .up-para{
     text-align: center;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 0px 0 20px;

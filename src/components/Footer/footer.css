@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .footer{
     background-color: #0f2310;
@@ -9,12 +9,12 @@
 }
 .mail-input{
     width: 250px;
-    height: 30px;
+    height: 50px;
     border: none;
     border-radius: 8px;
     margin: auto 20px;
     padding: 10px;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
 }
 .btn-submit{
     width: 100px;
@@ -23,11 +23,11 @@
     border-radius: 8px;
     padding: 10px;  
     background: #edd502;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
 .contact-no{
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: #fff;
@@ -44,14 +44,14 @@ display: flex;
 .logo-footer{
     text-align: center;
     color: aqua;
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 800;
     display: block;
     margin: 25px auto 0;
 }
 .mail-footer{
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 20px;

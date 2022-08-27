@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .hero-section{
     margin:75px 50px 100px;
@@ -13,7 +13,15 @@
     margin: 20px;
 }
 h1{
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 24px 0 32px;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+.hero-section-header{
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     font-weight: 800;
     margin: 24px 0 32px;
@@ -21,11 +29,11 @@ h1{
     letter-spacing: 1px;
 }
 p{
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 0px 0 40px;
-    line-height: 150%;
+    line-height: 1.6;
 }
 .get-playstore{
     display: flex;
@@ -38,7 +46,29 @@ p{
     /* margin: auto 30px; */
     width: 520px;
     height: 450px;
-
+}
+.ant-btn-primary {
+    margin-top: 10px !important;
+    border-radius: 8px !important;
+    height: 50px !important;
+    color: #edd502 !important;
+    background: #0f2310 !important;
+    border: none !important;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600 !important;
+}
+.how-work{
+    background: none !important;
+    border: 2px #0f2310 solid !important;
+    border-radius: 8px !important;
+    margin-left: 10px !important;
+    color: #0f2310  !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600 !important;
 }
 
 @media (min-width:350px) and (max-width:1024px) {

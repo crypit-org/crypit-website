@@ -4,8 +4,10 @@ import { IconContext } from "react-icons";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import {HiOutlineChevronLeft} from "react-icons/hi"
-import {Link} from 'react-scroll'
 import Logo from "../../assests/images/logo3.0.png"
+import {Link} from "react-router-dom";
+
+
 function Navbar() {
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
@@ -17,16 +19,16 @@ function Navbar() {
       case "/":
         page = "/";
         break;
-      case "#about":
+      case "/about":
         page = "about";
         break;
-      case "#feature":
+      case "/feature":
         page = "feature";
         break;
-      case "#testimonial":
+      case "/testimonial":
         page = "testimonial";
         break;
-      case "#contact":
+      case "/contact":
         page = "contact";
         break;
       default:
@@ -72,52 +74,53 @@ function Navbar() {
                
                 <li className="nav-item">
                   <Link
-                  to="about" spy={true} smooth={true}
-                    exact
-            
+                  to="/" spy={true} smooth={true}
+                    exact            
                     activeClassName="active"
                     className="nav-links"
                     onClick={click ? handleClick : null}
                   >
-                  About
+                    
+                Home
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
                     exact
                     spy={true} smooth={true}
-                    to="feature"
+                    to="/feature"
                     activeClassName="active"
                     className="nav-links"
                     onClick={click ? handleClick : null}
                   >
-                    Feature
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link
-                    exact
-                    to="testimonial"
-                    spy={true} smooth={true}
-                    activeClassName="active"
-                    className="nav-links"
-                    onClick={click ? handleClick : null}
-                  >
-                    Testimonial
+                Feature
+                  
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link
                     exact
-                    to="contact"
+                    to="/about"
                     spy={true} smooth={true}
                     activeClassName="active"
                     className="nav-links"
                     onClick={click ? handleClick : null}
                   >
-                  Contact
+                    About
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    exact
+                    to="/contact"
+                    spy={true} smooth={true}
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                  Contact Us
                   </Link>
                 </li>
               </ul>

@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .about-section{
     margin-top: 50px;
-    background-color:#0f2310;
+    /* background-color:#0f2310; */
     padding: 40px;
 }
 .about-head{
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 44px;
     font-weight: 800;
     margin: 24px 0 40px;
     line-height: 120%;
     letter-spacing: 1px;
-    color: #fff;
+    color: #3f3f3f;
     text-align: center;
 }
 .cont-text{
-    font-family: 'Barlow', sans-serif;
+   font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin: 20px 0 0;
     line-height: 150%;
-    color: #fff;
+    color: #3f3f3f;
     text-align: center;
 }
 .about-points{
@@ -29,11 +29,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 30px;
 }
 .container{
     display: block;
-    margin:15px auto;
+    margin:75px auto 14px;
     width: 400px;
 }
 .cont-img{
@@ -42,4 +42,57 @@
     /* width: 150px; */
     height: 175px;
 }
+.just-crypit{
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+}
+.crypit-img{
+    display: block;
+    /* margin: auto 30px; */
+    width: 520px;
+    height: 450px;
+}
 
+.right-detail{
+    max-width: 500px;
+    margin: 20px;
+}
+.crypit-heading{
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 24px 0 32px;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+
+.detail-list-crypit{
+  
+    padding-inline-start: 0;
+   font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    /* margin: auto 10px; */
+   
+    line-height: 140%;
+    list-style: none;
+}
+.detail-list-crypit li{
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 45px !important;
+}
+
+.detail-list-crypit li::before{
+    font-size: 30px;
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    color: #edd502;
+}
