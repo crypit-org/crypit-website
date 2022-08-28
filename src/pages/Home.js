@@ -16,7 +16,7 @@ export default function () {
       <HeroSection/>
       <About/>
    <GetStarted/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <FooterBanner/>
       {/* <Team/> */}
       

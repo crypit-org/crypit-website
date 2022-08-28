@@ -114,6 +114,20 @@ function Navbar() {
                 <li className="nav-item">
                   <Link
                     exact
+                    target={"_blank"} 
+                    to="http://www.crypit.blog/"
+                    spy={true} smooth={true}
+                    activeClassName="active"
+                    className="nav-links"
+                    onClick={click ? handleClick : null}
+                  >
+                 Blog
+                  </Link>
+                </li> 
+
+                <li className="nav-item">
+                  <Link
+                    exact
                     to="/contact"
                     spy={true} smooth={true}
                     activeClassName="active"

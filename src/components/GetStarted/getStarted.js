@@ -5,7 +5,7 @@ function GetStarted(props) {
   return (
     <div className="get-started">
       <h1 className="get-started-head">
-        Get started with CrypIT
+      Start your journey with CrypIT  
         <br /> in 3 easy steps.
       </h1>
       <div className="app-sample">
@@ -20,7 +20,7 @@ function GetStarted(props) {
               alt="xyz"
             />
             <div className="about-points-started">
-              <div className="point1">1. Download the App</div>
+              <div className="point1">1. Download and setup the App</div>
               <div className="point2">
                 Download the app, signup using mobile number &amp; Submit KYC.
               </div>
@@ -33,9 +33,9 @@ function GetStarted(props) {
               alt="xyz"
             />
             <div className="about-points-started">
-              <div className="point1">1. Download the App</div>
+              <div className="point1">2. Setup Wallets</div>
               <div className="point2">
-                Download the app, signup using mobile number &amp; Submit KYC.
+              Import existing wallets &amp; exchange accounts; Easily manage your existing portfolio
               </div>
             </div>
           </div>
@@ -46,9 +46,9 @@ function GetStarted(props) {
               alt="xyz"
             />
             <div className="about-points-started">
-              <div className="point1">1. Download the App</div>
+              <div className="point1">3. HODL, EARN, SPEND</div>
               <div className="point2">
-                Download the app, signup using mobile number &amp; Submit KYC.
+              Buy crypto with your favourite payment system. Earn with your HODLings. Do the Crypto to Fiat transfer &amp; Crypto to Crypto transfer to anyone.
               </div>
             </div>
           </div>

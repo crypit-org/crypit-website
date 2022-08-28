@@ -11,20 +11,33 @@ import { Fade } from "react-reveal";
 function Footer(props) {
   return (
     <div className="footer">
+      <div className="footer-email " style={{width:350}}>
+      <img className="logo-footer" src={Logo} alt="logo" width={175} />
+      <p className="footer-desc">A crypto payment app that makes your Crypto transfers &amp; spendings much easier and seamless than ever.</p>
+            </div>
       <div className="footer-email">
-        <div className="contact-no">Get us through mail:</div>
-        <input className="mail-input" placeholder="Enter your email" />
-        <button
-          className="btn-submit"
-          onClick={() => (window.location = "mailto:muthucse33@gmail.com")}
-        >
-          Send
-        </button>
-      </div>
+        <div className="contact-no">Company</div>
+        <ul className="footer-ul-list">
+          <li>Home</li>
+          <li>Features</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </ul>
+            </div>
+      <div className="footer-email">
+        <div className="contact-no">More</div>
+        <ul className="footer-ul-list">
+          <li>FAQ</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+     
+        </ul>
+            </div>
+            
 
       <div className="footer-detail">
-        <img className="logo-footer" src={Logo} alt="logo" width={175} />
-
+        {/* <img className="logo-footer" src={Logo} alt="logo" width={175} /> */}
+        <h1 className="disc-app">Discover our app</h1>
         <div className="section-footer"></div>
 
         <div className="mail">

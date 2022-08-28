@@ -6,7 +6,10 @@ function About(props) {
     return (
         <div>
         
-            This is about  page
+           <p>our story</p>
+           <p>Vission</p>
+           <p>Mission</p>
+           <p>Roadmap</p>
             <FooterBanner/>
         </div>
     );

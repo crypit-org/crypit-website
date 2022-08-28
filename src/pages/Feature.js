@@ -7,6 +7,7 @@ function Feature(props) {
         <div>
            
            <FeatureComponent/>
+           
            <FooterBanner/>
         </div>
     );

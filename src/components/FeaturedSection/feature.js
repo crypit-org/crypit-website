@@ -12,16 +12,23 @@ function Feature(props) {
         <div className='feature-section' >
             <div className='feature-cont'>
                 <div className='cont-1'>
-                    <img src={FeatureImg1} alt="img1" width={390}/>
-                    <Fade right>
+                    
+                    <Fade left>
                     <div className='detail1'>
                         <h1 className='detail-head'>Fiat &#60; &#62; Crypto</h1>
-                        <p className='detail-para'>Sit and relax between your Fiat &amp; Crypto, because CrypIT made Fiat to Crypto transfers easy, flexible &amp; more secured</p>
+                        
+                        <ul className='detail-list'>
+                                <li>Sit and relax between your Fiat &amp; Crypto, because CrypIT made Fiat to Crypto transfers easy, flexible &amp; more secured</li>
+                                <li>Buy crypto using your favourite payment system</li>
+                               
+                            </ul>
                     </div>
                     </Fade>
+                    <img src={FeatureImg1} alt="img1" width={390}/>
                 </div>
                 <div className='cont-2'>
-                <Fade left>
+                <img  src={FeatureImg2} alt="img1" width={350} height={305}/>
+                <Fade right>
                     <div className='detail2'>
                         <h1 className='detail-head'>Flexible </h1>
   
@@ -33,11 +40,10 @@ function Feature(props) {
                             <p className='detail-para'> </p>
                     </div>
                     </Fade>
-                    <img  src={FeatureImg2} alt="img1" width={350} height={305}/>
+                    
                 </div>
                 <div className='cont-1'>
-                    <img src={FeatureImg3} alt="img1" width={400}/>
-                    <Fade right>
+                    <Fade left>
                     <div className='detail1'>
                         <h1 className='detail-head'>Super-Easy</h1>
                         <ul className='detail-list'>
@@ -48,10 +54,11 @@ function Feature(props) {
                             </ul>
                     </div>
                     </Fade>
+                    <img src={FeatureImg3} alt="img1" width={400}/>
                 </div>
-
-                <div className='cont-2'>
-                <Fade left>
+                <div className='cont-2'>    
+                <img  src={FeatureImg4} alt="img1" width={300}/>
+                <Fade right>
                     <div className='detail2'>
                         <h1 className='detail-head'>Earn </h1>
   
@@ -62,7 +69,36 @@ function Feature(props) {
                             <p className='detail-para'> </p>
                     </div>
                     </Fade>
-                    <img  src={FeatureImg4} alt="img1" width={300}/>
+                   
+                </div>
+                <div className='cont-1'>
+                    <Fade left>
+                    <div className='detail1'>
+                        <h1 className='detail-head'>Learn</h1>
+                        <ul className='detail-list'>
+                                <li>Link mobile number and set primary wallet for all in/out crypto transactions</li>
+                                <li>Crypto Transfers using mobile number without worrying about wallet address</li>
+                                <li>Hassle free UPI, QR code, Bank transfer from Crypto.</li>
+                                <li>No more confusion with all crypto buzzwords &amp; complexity</li>
+                            </ul>
+                    </div>
+                    </Fade>
+                    <img src={FeatureImg3} alt="img1" width={400}/>
+                </div>
+                <div className='cont-2'>    
+                <img  src={FeatureImg4} alt="img1" width={300}/>
+                <Fade right>
+                    <div className='detail2'>
+                        <h1 className='detail-head'>Cooking more for you </h1>
+  
+                            <ul className='detail-list'>
+                                <li>Earn passive income on you crypto HODLings</li>
+                                <li>Get Join Bonus &amp; Exciting Referral rewards</li>
+                            </ul>
+                            <p className='detail-para'> </p>
+                    </div>
+                    </Fade>
+                   
                 </div>
             </div>
         </div>

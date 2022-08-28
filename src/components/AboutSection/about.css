@@ -96,3 +96,16 @@
     top: 5px;
     color: #edd502;
 }
+
+@media (min-width:350px) and (max-width:750px){
+    .just-crypit{
+        display: flex  ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .crypit-img{
+        width: 359px;
+        height: 400px;
+    }
+}

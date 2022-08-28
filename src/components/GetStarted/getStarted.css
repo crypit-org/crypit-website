@@ -49,3 +49,15 @@ font-size: 18px;
 font-weight: 400;
 font-family: 'Inter', sans-serif;
 }
+@media (min-width:350px) and (max-width:750px){
+    .app-sample{
+        display: flex  ;
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .sample-img{
+        width: 359px;
+        height: 375px;
+    }
+}
