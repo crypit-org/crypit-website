@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.vm-section{
+    margin: 50px auto;  
+}
+.story{
+       margin-top: 150px; 
+}
+.sec-img-header{
+    width: 450px;
+    height: 450px;
+    border-radius: 12px;
+}
+.section-1{
+    margin: 175px auto 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto 85px;
+}
+.section-detail1{
+    display: block;
+    max-width: 625px;
+    margin: auto 20px auto 70px;
+}
+.section-detail-head2{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-detail-head{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.section-detail-head::after{
+    height: 6px;
+    width: 60px;
+    content: "";
+    display: block;
+    margin-top: 18px;
+    background: #edd052;
+}
+.section-detail2{
+    display: block;
+    max-width: 625px;
+    margin: auto 70px auto 20px;
+}
+
+.story-detail-list{
+    padding-inline-start: 0;
+   font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: left;   
+    line-height: 165%;
+    list-style: none;
+    width:65%;
+    margin:auto; display:block;
+    text-align: center;
+}
+.section-detail-list{
+    
+    padding-inline-start: 0;
+   font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    text-align: left;   
+    line-height: 165%;
+    list-style: none;
+}
+.section-subtest{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.sec-img{
+
+border-radius: 12px;
+}
+@media (min-width:350px) and (max-width:1024px){
+    .section-1{
+    
+flex-direction: column;
+    }
+    .section-2{
+
+        flex-direction: column-reverse;
+    }
+    .section-detail2,.section-detail1{
+        margin: 30px 20px;
+    }
+    .section-detail-list{
+
+    }
+    .story-img{
+        width: 90%;
+        height: 250px;
+    }
+    .story-detail-list{
+        width: 90%;
+        margin:auto;
+         display:block;
+    text-align: center;
+    }
+    .sec-img{
+        width: 80%;
+    height: 500px;
+    border-radius: 12px;
+    }
+    
+}

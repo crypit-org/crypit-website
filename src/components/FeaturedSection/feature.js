@@ -5,11 +5,24 @@ import FeatureImg2 from "../../assests/images/flexible.png"
 import FeatureImg3 from "../../assests/images/bank1.0.png"
 import FeatureImg4 from "../../assests/images/earn2.png"
 import Fade from 'react-reveal/Fade';
+import { Button } from 'antd';
 
 
 function Feature(props) {
     return (
         <div className='feature-section' >
+            <div className='feature-banner'>
+            <div className='banner-detail'>
+        <h1 className='banner-head'>Simple and Secure way to manage buy, sell, earn and spend crypto</h1>
+        <Button type="primary" >Join Early Access</Button>
+            </div>
+            <div className='banner-cards'>
+            <div className='single-card'><h2>Buy &amp; Sell crypto</h2><p >Buy, sell, exchange and withdraw crypto easily using the fully featured app</p> </div>
+            <div className='single-card'><h2>Wallet</h2><p >Integrate your existing wallets and exchange crypto and fiat in one place</p> </div>
+            <div className='single-card'><h2>Earn</h2><p >Up to 14.7% yearly on your crypto and stablecoins</p> </div>
+            <div className='single-card'><h2>Spend</h2><p >Sell or make payment using crypto. The receiver gets paid in fiat or crypto of their choice</p> </div>
+            </div>
+            </div>
             <div className='feature-cont'>
                 <div className='cont-1'>
                     
@@ -101,6 +114,7 @@ function Feature(props) {
                    
                 </div>
             </div>
+         
         </div>
     );
 }

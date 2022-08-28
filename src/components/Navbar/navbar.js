@@ -86,7 +86,7 @@ function Navbar() {
                 </li>
                 <li className="nav-item">
                   <Link
-                    exact
+                   
                     spy={true} smooth={true}
                     to="/feature"
                     activeClassName="active"
@@ -100,7 +100,7 @@ function Navbar() {
 
                 <li className="nav-item">
                   <Link
-                    exact
+                    
                     to="/about"
                     spy={true} smooth={true}
                     activeClassName="active"
@@ -113,7 +113,7 @@ function Navbar() {
 
                 <li className="nav-item">
                   <Link
-                    exact
+                    
                     target={"_blank"} 
                     to="http://www.crypit.blog/"
                     spy={true} smooth={true}
@@ -127,7 +127,7 @@ function Navbar() {
 
                 <li className="nav-item">
                   <Link
-                    exact
+                
                     to="/contact"
                     spy={true} smooth={true}
                     activeClassName="active"
