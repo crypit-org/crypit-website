@@ -64,12 +64,23 @@
 @media (min-width:350px) and (max-width:1024px) {
     .cta-head{
         font-size: 28px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .cta-para{
+        font-size: 18px;
+        text-align: center;
     }
     .lets-contact{
         margin-right: 0;
         margin-bottom: 30px;
     }
-    
+    .lets-contact p{
+        font-size: 18px;
+    }
+    .faq-notion p{
+        font-size: 18px;
+    }
 .feature-cta{
     margin: 75px 15px 50px;
 }

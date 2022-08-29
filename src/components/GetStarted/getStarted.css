@@ -60,4 +60,13 @@ font-family: 'Inter', sans-serif;
         width: 359px;
         height: 375px;
     }
+    .get-started-head{
+        font-size: 26px;
+    }
+    .point1{
+        font-size: 18px;
+    }
+    .point2{
+        font-size: 16px;
+    }
 }

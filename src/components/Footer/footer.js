@@ -6,6 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { SiYoutubemusic } from "react-icons/si";
 import { IconContext } from "react-icons";
 import Logo from "../../assests/images/logo3.0.png";
+import {Link} from "react-router-dom";
 import { Fade } from "react-reveal";
 
 function Footer(props) {
@@ -18,10 +19,10 @@ function Footer(props) {
       <div className="footer-email">
         <div className="contact-no">Company</div>
         <ul className="footer-ul-list">
-          <li>Home</li>
-          <li>Features</li>
-          <li>Blog</li>
-          <li>Contact</li>
+         <Link to="*"> <li>Home</li> </Link> 
+         <Link to="/feature"> <li>Features</li> </Link>
+         <Link to="/blog"> <li>Blog</li> </Link>
+         <Link to="/contact"> <li>Contact</li> </Link>  
         </ul>
             </div>
       <div className="footer-email">

@@ -83,8 +83,16 @@ p{
     }
     .hero-img{
         width: 359px;
-        height: 400px;
+        height:350px;
     }
+    .hero-section-header{
+        font-size: 28px;
+        margin: 20px auto;
+    }
+    .hero-section-header p{
+        font-size: 16px;
+    }
+  
 
 }
 
@@ -99,4 +107,13 @@ p{
     .play-img{
         margin-top: 15px;
     }
+    .get-playstore .ant-btn{
+width: 90%;
+    }
+    .get-playstore .how-work{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0px !important;
+            }
 }

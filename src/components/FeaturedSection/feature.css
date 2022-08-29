@@ -31,7 +31,7 @@
     text-align: center;
 }
 .banner-detail{
-    max-width: 545px;
+    max-width: 462px;
 }
 .banner-cards{
     display: flex;
@@ -56,6 +56,7 @@
     border-radius: 12px;
     margin-bottom: 30px;
     height: 220px;
+    margin: 10px;
 }
 .single-card p{
     font-family: 'Inter', sans-serif;
@@ -138,17 +139,37 @@
 
 
 @media (min-width:350px) and (max-width:1024px) {
-    .banner-head,.detail-head{
+    .banner-head{
         font-size: 28px;
+        text-align: center;
+    }
+    
+    .detail-head{
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+    .feature-banner .ant-btn{
+        display: block;
+        margin: auto;
+        width: 90%;
     }
     .banner-cards{
         margin-top: 35px;
+        margin-left: 0px;
+        display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     }
     .feature-banner{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px 0;
+        
+    margin: auto 20px;
+
     }
     .cta-links{
         display: flex;
@@ -173,7 +194,11 @@
         text-align: center;
     }
     .detail-list{
-        padding: 0 40px;
+        padding: 0 25px;
+        font-size: 18px;
+    }
+    .detail-list li::before{
+        font-size: 24px;
     }
     .feature-img1{
         height: 350px;

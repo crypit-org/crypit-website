@@ -14,7 +14,7 @@ function Feature(props) {
             <div className='feature-banner'>
             <div className='banner-detail'>
         <h1 className='banner-head'>Simple and Secure way to manage buy, sell, earn and spend crypto</h1>
-        <Button type="primary" >Join Early Access</Button>
+        <Button type="primary" className='banner-head-btn' >Join Early Access</Button>
             </div>
             <div className='banner-cards'>
             <div className='single-card'><h2>Buy &amp; Sell crypto</h2><p >Buy, sell, exchange and withdraw crypto easily using the fully featured app</p> </div>

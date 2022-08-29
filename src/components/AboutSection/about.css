@@ -106,6 +106,30 @@
     }
     .crypit-img{
         width: 359px;
-        height: 400px;
+        height: 350px;
+    }
+    .crypit-heading{
+        font-size: 28px;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .right-detail{
+        margin: 0;
+    }
+    .detail-list-crypit li::before{
+        font-size: 24px;
+    }
+    .about-section{
+        padding: 20px;
+    }
+    .detail-list-crypit{
+        font-size: 18px;
+    }
+    .container{
+        margin: 10px auto;
+    }
+    .cont-text{
+        font-size: 18px;
+        margin: 10px 0 0;
     }
 }

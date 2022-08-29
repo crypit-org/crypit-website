@@ -14,11 +14,11 @@ function HeroSection(props) {
          
             <div className='left-cont'>
             <Fade left>
-                <h1 className='hero-section-header'>HODL, EARN, SPEDN</h1> </Fade>
+                <h1 className='hero-section-header'>HODL, EARN, SPEND</h1> </Fade>
                 <Fade left>
                 <p>A crypto payment app that makes your Fiat &#60; &#62; Crypto transfers &amp; spendings much easier and seamless than ever.</p></Fade>
                 <Fade left> <div className='get-playstore'>
-                       <Button type="primary">Join Early Access</Button>
+                       <Button type="primary" className='join-early'>Join Early Access</Button>
                        <Button type="primary" className='how-work'>
                         <div style={{display:'flex',alignItem:'center'}}>
                        <IconContext.Provider
