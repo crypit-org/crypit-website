@@ -20,7 +20,7 @@ function VMsection(props) {
            
           </div>
         </Fade>
-        <img className="sec-img-header" src='https://investmates.io/images/our%20mission.jpg' alt="img1"  />
+        <img className="sec-img-header" src='https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80'  alt="img1"  />
       </div>
         <div className="story">
             <img className="story-img" src="https://investmates.io/images/Rectangle3.jpg" alt="" style={{display:'block', margin:"30px auto"}}/>

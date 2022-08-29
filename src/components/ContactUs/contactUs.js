@@ -9,8 +9,8 @@ const { TextArea } = Input;
 function ContactUs(props) {
     return (
         <div className='contact-sec'>
-        <p className='contact-subhead'>Get in touch</p>
-        <h1 className='contact-head'>Contact with us</h1>
+        <p className='contact-head'>Get in touch</p>
+        {/* <h1 className='contact-head'>Contact us</h1> */}
 
         <div className='cont-detail'>
             <div className='contact-info-box'>

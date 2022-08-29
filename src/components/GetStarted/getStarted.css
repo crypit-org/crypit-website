@@ -21,8 +21,9 @@
 .sample-img{
     display: block;
     /* margin: auto 30px; */
-    width: 520px;
-    height: 450px;
+    width: 475px;
+    height: 430px;
+
 }
 
 .right-detail-started{
@@ -58,7 +59,8 @@ font-family: 'Inter', sans-serif;
     }
     .sample-img{
         width: 359px;
-        height: 375px;
+        height: 350px;
+        margin-top: 30px;
     }
     .get-started-head{
         font-size: 26px;

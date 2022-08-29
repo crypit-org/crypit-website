@@ -5,14 +5,20 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import {HiOutlineChevronLeft} from "react-icons/hi"
 import Logo from "../../assests/images/logo3.0.png"
-import {Link} from "react-router-dom";
+import {Link,useNavigate} from "react-router-dom";
 
 
 function Navbar() {
   const [click, setClick] = React.useState(false);
   const handleClick = () => setClick(!click);
   const Close = () => setClick(false);
-  
+  const navigate = useNavigate();
+
+  const moveBlog =() => {
+// return window.open("http://crypit.blog");
+navigate("http://crypit.blog");
+  }
+
   let page = "";
   const getCurrentPage = () => {
     switch (window.location.pathname) {
@@ -111,18 +117,12 @@ function Navbar() {
                   </Link>
                 </li>
 
-                <li className="nav-item">
-                  <Link
-                    
-                    target={"_blank"} 
-                    to="http://www.crypit.blog/"
-                    spy={true} smooth={true}
-                    activeClassName="active"
-                    className="nav-links"
-                    onClick={click ? handleClick : null}
-                  >
+                <li className="nav-item " style={{fontWeight:700}} onClick={()=>window.open("http://crypit.blog")}>
+             
+
                  Blog
-                  </Link>
+                
+                  
                 </li> 
 
                 <li className="nav-item">

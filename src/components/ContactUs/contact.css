@@ -51,10 +51,12 @@ margin:10px auto 0;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
 }
-.about-contact{
-    margin-left: 45px;
-    width:60%;
-}
+
+    .about-contact {
+        margin-left: 125px;
+        width: 50%;
+    }
+
 .about-contact-note{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
