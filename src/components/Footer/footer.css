@@ -75,6 +75,7 @@
 }
 .social-links{
 display: flex;
+cursor: pointer;
 }
 .logo-footer{
     text-align: center;
