@@ -19,7 +19,7 @@ function Footer(props) {
       <div className="footer-email">
         <div className="contact-no">Company</div>
         <ul className="footer-ul-list">
-         <Link to="*"> <li>Home</li> </Link> 
+         <Link to=""> <li>Home</li> </Link> 
          <Link to="/feature"> <li>Features</li> </Link>
          <li onClick={()=>window.open("http://crypit.blog")}>Blog</li> 
          <Link to="/contact"> <li>Contact</li> </Link>  

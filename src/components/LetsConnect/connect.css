@@ -43,6 +43,7 @@ margin: 50px 150px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .connect-info-box2{
     width: 500px;
@@ -55,6 +56,7 @@ margin: 50px 150px;
     -webkit-border-radius: 6px;
     border-radius: 6px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .connect-head{
     font-family: 'Inter', sans-serif;

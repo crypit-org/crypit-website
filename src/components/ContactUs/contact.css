@@ -19,14 +19,15 @@ margin:50px auto;
 
     line-height: 120%;
     letter-spacing: 1px;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 150px;
 }
 .contact-head::after{
     height: 6px;
     width: 60px;
-    content: "";
+    content: ""; 
     display: block;
-    margin: 10px auto 0;
+    margin-top: 10px ;
     background: #edd052;
 }
 .cont-detail{
@@ -44,6 +45,7 @@ margin:50px auto;
     border-radius: 6px;
     margin-bottom: 30px;
     height: 230px;
+    cursor: pointer;
 }
 .content-head{
     font-family: 'Inter', sans-serif;
@@ -108,5 +110,9 @@ margin:10px auto 0;
         margin-left: 20px;
         margin-right: 20px;
         width: 80%;
+    }
+    .contact-head{
+        font-size: 28px;
+        margin-left: 20px;
     }
 }
