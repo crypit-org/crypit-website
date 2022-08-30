@@ -99,7 +99,7 @@ navigate("http://crypit.blog");
                     className={page==="feature"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
-                Feature
+                Features
                   
                   </Link>
                 </li>
