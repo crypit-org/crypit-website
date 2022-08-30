@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');;
-
+.text-highlight{
+    color: #EBB044 ;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+   font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
 .pages {
     color: #316685;
     text-align: center;
@@ -62,8 +72,20 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+.nav-links-red {
+    color: red !important;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+   font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
 .nav-links-active {
-    color:"red";
+    color: #EBB044;
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
@@ -106,7 +128,7 @@
 }
 
 a:hover {
-    color: red !important;
+    color:  #edd052 !important;
 }
 
 ul {

@@ -25,7 +25,12 @@
     height: 430px;
 
 }
+.img-bg{
+    background-color: #f5f6fa;
+    border-radius: 14px;
+    padding: 10px;
 
+}
 .right-detail-started{
     max-width: 500px;
     margin: 20px;

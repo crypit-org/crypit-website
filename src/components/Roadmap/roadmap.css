@@ -65,14 +65,14 @@
   /* branches */
   
    .branch {
-      width: calc(1450px/10);
-      height: 216px;
-      border-left: 3px solid var(--main);
-      position: relative;
-   top:-213px;
-      left: 40px;
-      display: inline-block;
-      transition: all 1.5s ease;
+    width: calc(1450px/10);
+    height: 171px;
+    border-left: 3px solid var(--main);
+    position: relative;
+    top: -169px;
+    left: 40px;
+    display: inline-block;
+    transition: all 1.5s ease;
   }
   
    .branch::after {
@@ -114,7 +114,7 @@
    .content {
       position: absolute;
       left: 27px;
-      top: -29px;
+      top: -10px;
       width: 200px;
   }
   
@@ -135,8 +135,8 @@
   
   .branch img {
     position: absolute;
-    top: -160px;
-    left: -40px;
+    top: -168px;
+    left: -75px;
     transform: scale(0.6);
   }
   
@@ -213,8 +213,8 @@
       }
   
       .mirror-down {
-          top: -211px;
-          left: -70px;
+        top: -171px;
+        left: -70px;
       }
   
       .branch::after {
@@ -242,22 +242,24 @@
       }
     
       .flip img {
-        left: -72px;
-        top: -60px;
+        width: 200px;
+        left: -118px;
+        top: -121px;
         transform: rotate(-90deg) scaleX(-1) scale(0.6);
       }
   
       .right {
           left: -10px;
-          top: 160px;
+          top: 125px;
           transform: rotate(-90deg)!important;
           transform-origin: top left;
       } 
     
       .turn img {
+        width: 100px;
         left: -69px;
         top: -60px;
-        transform: rotate(-90deg) scaleX(-1) scale(0.6);
+        transform: rotate(-90deg) scaleX(1) scale(0.9);
       }
       .year{
         margin-top: 28px;

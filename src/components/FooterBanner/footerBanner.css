@@ -93,4 +93,7 @@ margin-bottom: 50px;
         left: 2px;
         width: 50px;
     }
+    .floating-img3,.floating-img4{
+        display: none;
+    }
 }

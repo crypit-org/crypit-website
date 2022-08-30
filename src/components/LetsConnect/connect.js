@@ -18,7 +18,7 @@ function Connect(props) {
                 <img src={Twitter} alt="xyz" style={{margin:"15px auto",width:"90px"}} />        
                   <div className="connect-content">
                     <h1 className="connect-head">Twitter</h1>
-                    <p className="btn-connect ">support@crypit.app</p>
+                    <p className="btn-connect ">@crypit</p>
                   </div>
                 </div>                
             </div>
@@ -27,7 +27,7 @@ function Connect(props) {
             <img style={{margin:"15px auto",width:"90px"}} src={LinkedIn} alt="xyz"/>        
                   <div className="connect-content">
                     <h1 className="connect-head">LinkedIn</h1>
-                    <p className="btn-connect ">support@crypit.app</p>
+                    <p className="btn-connect ">@crypit</p>
                   </div>
                 </div>                
             </div>
@@ -36,43 +36,26 @@ function Connect(props) {
             <img style={{margin:"15px auto",width:"90px"}} src={Insta} alt="xyz"/>     
                   <div className="connect-content">
                     <h1 className="connect-head">Instagram</h1>
-                    <p className="btn-connect ">support@crypit.app</p>
+                    <p className="btn-connect ">@crypit</p>
                   </div>
                 </div>                
             </div>
-            {/* <div className='connect-info-box'>
-            <div class="connect-wrapper">           
-            <img style={{margin:"15px auto",}} src="https://static.wixstatic.com/media/ebbcfc_7170cb811d30489a945579e58e93bcdb~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ebbcfc_7170cb811d30489a945579e58e93bcdb~mv2.png" alt="xyz"/>        
-                  <div className="connect-content">
-                    <h1 className="connect-head">Medium</h1>
-                    <p className="btn-connect ">support@crypit.app</p>
-                  </div>
-                </div>                
-            </div> */}
+   
             <div className='connect-info-box'>
             <div class="connect-wrapper">           
             <img style={{margin:"15px auto",width:"90px"}} src={WPIcon} alt="xyz"/>       
                   <div className="connect-content">
                     <h1 className="connect-head">Whatsapp</h1>
-                    <p className="btn-connect ">support@crypit.app</p>
+                    <p className="btn-connect ">(+91) 9876543210</p>
                   </div>
                 </div>                
             </div>
-            {/* <div className='connect-info-box'>
-            <div class="connect-wrapper">           
-            <img style={{margin:"15px auto",}} src="https://static.wixstatic.com/media/ebbcfc_7170cb811d30489a945579e58e93bcdb~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ebbcfc_7170cb811d30489a945579e58e93bcdb~mv2.png" alt="xyz"/>        
-                  <div className="connect-content">
-                    <h1 className="connect-head">Email us</h1>
-                    <p className="btn-connect ">support@crypit.app</p>
-                  </div>
-                </div>                
-            </div> */}
-            <div className='connect-info-box2'>
+                      <div className='connect-info-box2'>
             <div class="connect-wrapper">           
             <img style={{margin:"15px auto",}} src={Information} alt="xyz" width={90}/>    
                   <div className="connect-content">
                     <h1 className="connect-head">Frequently asked questions &rarr;</h1>
-                    <p className="btn-connect ">sdkqhebfabv adnbvzhjfbvahfdb andm wrbfvwrhbwbn agebbn</p>
+                    <p className="btn-connect ">Here you'll find everything about our CrypIT.</p>
                   </div>
                 </div>                
             </div>

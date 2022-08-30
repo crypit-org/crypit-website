@@ -27,6 +27,7 @@
     padding-left: 30px;
     padding-bottom: 10px;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 
 .footer-ul-list li::before{

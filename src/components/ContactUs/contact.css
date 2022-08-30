@@ -21,6 +21,14 @@ margin:50px auto;
     letter-spacing: 1px;
     text-align: center;
 }
+.contact-head::after{
+    height: 6px;
+    width: 60px;
+    content: "";
+    display: block;
+    margin: 10px auto 0;
+    background: #edd052;
+}
 .cont-detail{
     display: flex;
     justify-content: center;

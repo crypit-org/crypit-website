@@ -21,7 +21,7 @@ function Footer(props) {
         <ul className="footer-ul-list">
          <Link to="*"> <li>Home</li> </Link> 
          <Link to="/feature"> <li>Features</li> </Link>
-         <Link to="/blog"> <li>Blog</li> </Link>
+         <li onClick={()=>window.open("http://crypit.blog")}>Blog</li> 
          <Link to="/contact"> <li>Contact</li> </Link>  
         </ul>
             </div>

@@ -23,7 +23,7 @@ navigate("http://crypit.blog");
   const getCurrentPage = () => {
     switch (window.location.pathname) {
       case "/":
-        page = "/";
+        page = "";
         break;
       case "/about":
         page = "about";
@@ -83,7 +83,7 @@ navigate("http://crypit.blog");
                   to="/" spy={true} smooth={true}
                     exact            
                     activeClassName="active"
-                    className="nav-links"
+                    className={page===""?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
                     
@@ -96,7 +96,7 @@ navigate("http://crypit.blog");
                     spy={true} smooth={true}
                     to="/feature"
                     activeClassName="active"
-                    className="nav-links"
+                    className={page==="feature"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
                 Feature
@@ -110,14 +110,14 @@ navigate("http://crypit.blog");
                     to="/about"
                     spy={true} smooth={true}
                     activeClassName="active"
-                    className="nav-links"
+                    className={page==="about"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
                     About
                   </Link>
                 </li>
 
-                <li className="nav-item " style={{fontWeight:700}} onClick={()=>window.open("http://crypit.blog")}>
+                <li className="nav-links " onClick={()=>window.open("http://crypit.blog")}>
              
 
                  Blog
@@ -131,7 +131,7 @@ navigate("http://crypit.blog");
                     to="/contact"
                     spy={true} smooth={true}
                     activeClassName="active"
-                    className="nav-links"
+                    className={page==="contact"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
                   Contact Us

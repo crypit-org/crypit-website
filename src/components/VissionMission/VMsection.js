@@ -1,7 +1,10 @@
 import React from "react";
 import "./VMsection.css";
-import FeatureImg1 from "../../assests/images/f-c.png"
-import FeatureImg2 from "../../assests/images/flexible.png"
+import FeatureImg1 from "../../assests/images/vision.avif"
+import FeatureImg2 from "../../assests/images/mission.avif"
+import Story1 from "../../assests/images/story1.jpg"
+import Story2 from "../../assests/images/story2.avif"
+import VMHero from "../../assests/images/vm-hero.avif"
 import Fade from 'react-reveal/Fade';
 
 function VMsection(props) {
@@ -20,10 +23,14 @@ function VMsection(props) {
            
           </div>
         </Fade>
-        <img className="sec-img-header" src='https://images.unsplash.com/photo-1544725121-be3bf52e2dc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80'  alt="img1"  />
+        <img className="sec-img-header" src={VMHero}  alt="img1"  />
       </div>
         <div className="story">
-            <img className="story-img" src="https://investmates.io/images/Rectangle3.jpg" alt="" style={{display:'block', margin:"30px auto"}}/>
+          <div className="story-img-flex">
+            <img className="story-img img2" src={Story2} alt=""/>
+            <img className="story-img img1" src={Story1} alt=""/>
+            
+          </div>
             <h1 className="section-detail-head2" style={{textAlign:"center"}}> Our Story</h1>
             <div className="story-detail-list" >
             Crypto in not just a investment and HODLable asset, it's a secured, de-centralised currency made for transparent and hassle free transactions. However, it's not user friendly due to different chains, hard to remember wallet addresses, time consuming crypto to fiat withdrawals. To avoid all these hurdles and to put this digital currency into real user we started this journey.
@@ -31,7 +38,7 @@ function VMsection(props) {
               </div>
         </div>
       <div className="section-1">
-        <img className="sec-img" src="https://investmates.io/images/our%20vision.jpg" alt="img1"  />
+        <img className="sec-img" src={FeatureImg1} alt="img1"  />
         <Fade right>
           <div className="section-detail1">
             <h1 className="section-detail-head">Our Vision</h1>
@@ -54,7 +61,7 @@ We not only aim to simplify this transactions but also change the narrative arou
            
           </div>
         </Fade>
-        <img className="sec-img" src='https://investmates.io/images/our%20mission.jpg' alt="img1"  />
+        <img className="sec-img" src={FeatureImg2} alt="img1"   />
       </div>
     </div>
   );

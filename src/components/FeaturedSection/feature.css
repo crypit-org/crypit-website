@@ -179,18 +179,18 @@
     }
     .cont-1{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin: 25px auto !important;
     }
     .cont-2{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin: 25px auto !important;
     }
     .detail1,.detail2{
-        margin: auto;
+        margin: 20px auto 0;
         text-align: center;
     }
     .detail-list{

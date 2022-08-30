@@ -3,7 +3,8 @@ import "./feature.css"
 import FeatureImg1 from "../../assests/images/f-c.png"
 import FeatureImg2 from "../../assests/images/flexible.png"
 import FeatureImg3 from "../../assests/images/bank1.0.png"
-import FeatureImg4 from "../../assests/images/earn2.png"
+import FeatureImg4 from "../../assests/images/feature-earn.png"
+import FeatureImg5 from "../../assests/images/cooking.png"
 import Fade from 'react-reveal/Fade';
 import { Button } from 'antd';
 
@@ -28,11 +29,11 @@ function Feature(props) {
                     
                     <Fade left>
                     <div className='detail1'>
-                        <h1 className='detail-head'>Fiat &#60; &#62; Crypto</h1>
+                        <h1 className='detail-head'>Crypto &#60; &#62; Fiat</h1>
                         
                         <ul className='detail-list'>
-                                <li>Sit and relax between your Fiat &amp; Crypto, because CrypIT made Fiat to Crypto transfers easy, flexible &amp; more secured</li>
-                                <li>Buy crypto using your favourite payment system</li>
+                                <li>Sit and relax between your Crypto &amp; Fiat , because CrypIT made Crypto to Fiat transfers easy, flexible &amp; more secured</li>
+                                
                                
                             </ul>
                     </div>
@@ -70,7 +71,7 @@ function Feature(props) {
                     <img src={FeatureImg3} alt="img1" width={400}/>
                 </div>
                 <div className='cont-2'>    
-                <img  src={FeatureImg4} alt="img1" width={300}/>
+                <img  src={FeatureImg4} alt="img1" width={320} />
                 <Fade right>
                     <div className='detail2'>
                         <h1 className='detail-head'>Earn </h1>
@@ -84,7 +85,7 @@ function Feature(props) {
                     </Fade>
                    
                 </div>
-                <div className='cont-1'>
+                {/* <div className='cont-1'>
                     <Fade left>
                     <div className='detail1'>
                         <h1 className='detail-head'>Learn</h1>
@@ -97,21 +98,20 @@ function Feature(props) {
                     </div>
                     </Fade>
                     <img src={FeatureImg3} alt="img1" width={400}/>
-                </div>
-                <div className='cont-2'>    
-                <img  src={FeatureImg4} alt="img1" width={300}/>
+                </div> */}
+                <div className='cont-1'>    
+                
                 <Fade right>
-                    <div className='detail2'>
-                        <h1 className='detail-head'>Cooking more for you </h1>
+                    <div className='detail1'>
+                        <h1 className='detail-head'>Cooking more for you... </h1>
   
                             <ul className='detail-list'>
-                                <li>Earn passive income on you crypto HODLings</li>
-                                <li>Get Join Bonus &amp; Exciting Referral rewards</li>
+                                <li>Keep in touch with us to know more about CrypIT</li>
                             </ul>
                             <p className='detail-para'> </p>
                     </div>
                     </Fade>
-                   
+                    <img  src={FeatureImg5} alt="img1" width={450}/>
                 </div>
             </div>
          

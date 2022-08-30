@@ -20,7 +20,7 @@ function FeatureCTA(props) {
             </Link>
             <div className='faq-notion'>
             <h2>FAQ</h2>
-                <p>Here you'll find everything about the product</p>
+                <p>Here you'll find everything about our CrypIT</p>
                 <img className='floating-img2 floating' src={Exchange} alt="eth"/>
                <h3>Explore FAQs &rarr;</h3>
             </div>
