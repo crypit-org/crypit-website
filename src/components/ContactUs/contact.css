@@ -88,6 +88,9 @@ margin:10px auto 0;
     /* right: 0; */
     margin-right: -50px;
 }
+.ant-input:hover{
+    border-color: #0f2310 !important;
+}
 @media (min-width:350px) and (max-width:1024px) {
     .cont-detail{
         display: flex;
