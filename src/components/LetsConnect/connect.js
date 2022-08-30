@@ -6,6 +6,8 @@ import Twitter from "../../assests/images/twitter.png"
 import LinkedIn from "../../assests/images/linkedin.png"
 import Insta from "../../assests/images/insta.png"
 import Information from "../../assests/images/information.png"
+import { Link } from 'react-router-dom';
+
 
 
 function Connect(props) {
@@ -13,6 +15,7 @@ function Connect(props) {
         <div className='connect-sec'>
   <h1 className='connect-head2'>Let's Connect</h1>
   <div className='connect-box'>
+    <Link to="/contact">
             <div className='connect-info-box'>
             <div class="connect-wrapper">           
                 <img src={Twitter} alt="xyz" style={{margin:"15px auto",width:"90px"}} />        
@@ -22,6 +25,8 @@ function Connect(props) {
                   </div>
                 </div>                
             </div>
+            </Link>
+            <Link to="/contact">
             <div className='connect-info-box'>
             <div class="connect-wrapper">           
             <img style={{margin:"15px auto",width:"90px"}} src={LinkedIn} alt="xyz"/>        
@@ -31,6 +36,8 @@ function Connect(props) {
                   </div>
                 </div>                
             </div>
+            </Link>
+            <Link to="/contact">
             <div className='connect-info-box'>
             <div class="connect-wrapper">           
             <img style={{margin:"15px auto",width:"90px"}} src={Insta} alt="xyz"/>     
@@ -40,7 +47,8 @@ function Connect(props) {
                   </div>
                 </div>                
             </div>
-   
+            </Link>
+            <Link to="/contact">
             <div className='connect-info-box'>
             <div class="connect-wrapper">           
             <img style={{margin:"15px auto",width:"90px"}} src={WPIcon} alt="xyz"/>       
@@ -50,6 +58,8 @@ function Connect(props) {
                   </div>
                 </div>                
             </div>
+            </Link>
+            <Link to="/contact">
                       <div className='connect-info-box2'>
             <div class="connect-wrapper">           
             <img style={{margin:"15px auto",}} src={Information} alt="xyz" width={90}/>    
@@ -59,6 +69,7 @@ function Connect(props) {
                   </div>
                 </div>                
             </div>
+            </Link>
             </div>
         </div>
     );

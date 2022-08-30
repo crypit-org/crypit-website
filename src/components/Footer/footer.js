@@ -22,7 +22,7 @@ function Footer(props) {
          <Link to=""> <li>Home</li> </Link> 
          <Link to="/feature"> <li>Features</li> </Link>
          <li onClick={()=>window.open("http://crypit.blog")}>Blog</li> 
-         <Link to="/contact"> <li>Contact</li> </Link>  
+         <Link to="/contact"> <li>Contact Us</li> </Link>  
         </ul>
             </div>
       <div className="footer-email">

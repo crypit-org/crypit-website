@@ -70,6 +70,7 @@ margin:10px auto 5px;
 .btn-connect{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    color: #3f3f3f !important;;
   
 }
 @media (min-width:350px) and (max-width:750px) {
