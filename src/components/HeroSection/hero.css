@@ -71,6 +71,22 @@ p{
     font-weight: 600 !important;
 }
 
+.Rocket-img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.ant-modal-footer{
+    padding: 10px 16px 50px !important;
+text-align: center !important;
+}
+.ant-modal{
+    max-width: calc(40vw - 32px) !important;
+}
+.ant-modal-content{
+    border-radius: 20px !important;
+}
 @media (min-width:350px) and (max-width:1024px) {
     .hero-section{
         margin:50px 20px;
@@ -92,7 +108,9 @@ p{
     .hero-section-header p{
         font-size: 16px;
     }
-  
+    .ant-modal{
+        max-width: calc(70vw - 32px) !important;
+    }
 
 }
 
