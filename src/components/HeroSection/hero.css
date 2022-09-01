@@ -74,12 +74,12 @@ p{
 .Rocket-img{
     display: block;
     margin: auto;
-    width: 200px;
+    width: 100px;
     margin-bottom: 50px;
-    height: 200px;
+    height: 100px;
 }
 .ant-modal-footer{
-    padding: 10px 16px 50px !important;
+    padding: 0px 16px 30px !important ;
 text-align: center !important;
 }
 .ant-modal{

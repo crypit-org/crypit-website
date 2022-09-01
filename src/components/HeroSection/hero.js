@@ -11,17 +11,24 @@ import { IconContext } from "react-icons";
 function HeroSection(props) {
   const [isModalVisible, setIsModalVisible] = useState(false);
 
+  //join early btn
   const showModal = () => {
     setIsModalVisible(true);
   };
 
-  const handleOk = () => {
+  //Get access btn
+  const joinEarly = () => {
     setIsModalVisible(false);
+    alert("success!");
   };
 
+  // cross icon
   const handleCancel = () => {
     setIsModalVisible(false);
   };
+
+
+
   return (
     <div className="hero-section">
       <div className="left-cont">
@@ -37,7 +44,7 @@ function HeroSection(props) {
         <Fade left>
           {" "}
           <div className="get-playstore">
-            <Button type="primary" className="join-early" onClick={showModal}>
+            <Button type="primary" className="join-early" onClick={()=>{showModal()}}>
               Join Early Access
             </Button>
             <Button type="primary" className="how-work">
@@ -60,13 +67,16 @@ function HeroSection(props) {
       </div>
       <Modal
         visible={isModalVisible}
-        onOk={handleOk}
-        okText="Submit"
+        onOk={joinEarly}
+        okText="Get Access"
+        onCancel={handleCancel}
         cancelButtonProps={{ style: { display: "none" } }}
       >
         <img className="Rocket-img" src={Rocket} alt="Rocket"/>
-        <h3 style={{textAlign:'center',marginBottom:"20px"}}>Enter your Email Address</h3>
-        <Input placeholder="Email Id" />
+        <h3 style={{textAlign:'center',marginBottom:"10px"}}>Enter your Name</h3>
+        <Input placeholder="Name" type="text" style={{marginBottom:"20px"}}/>
+        <h3 style={{textAlign:'center',marginBottom:"10px"}}>Enter your Email Address</h3>
+        <Input placeholder="Email Id" type="email" style={{marginBottom:"20px"}}/>
       </Modal>
 
       <div className="right-cont">
