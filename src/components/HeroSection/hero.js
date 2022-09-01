@@ -1,7 +1,6 @@
 import React from "react";
 import "./hero.css";
 import BannerImage from "../../assests/images/started-main.png";
-
 import Fade from "react-reveal/Fade";
 import "antd/dist/antd.css";
 import { AiFillPlayCircle } from "react-icons/ai";

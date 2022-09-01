@@ -1,6 +1,5 @@
 import React from 'react';
 import "./about.css"
-import BannerImage from "../../assests/images/hero-img4.png"
 import JustCrypit from "../../assests/images/just-crypit.png"
 import About1 from "../../assests/images/wallet.png"
 import About2 from "../../assests/images/about3.png"
@@ -8,7 +7,6 @@ import About3 from "../../assests/images/on-ramp.png"
 import About4 from "../../assests/images/blog4.png"
 import About5 from "../../assests/images/about5.png"
 import About6 from "../../assests/images/gift2.png"
-
 import Fade from 'react-reveal/Fade';
 
 function About(props) {

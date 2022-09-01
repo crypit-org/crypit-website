@@ -1,6 +1,5 @@
 import React from 'react';
 import "./connect.css"
-import {IoMailOpenOutline} from "react-icons/io5"
 import WPIcon from "../../assests/images/whatsapp.png"
 import Twitter from "../../assests/images/twitter.png"
 import LinkedIn from "../../assests/images/linkedin.png"

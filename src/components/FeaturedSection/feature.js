@@ -6,7 +6,6 @@ import FeatureImg3 from "../../assests/images/bank1.0.png"
 import FeatureImg4 from "../../assests/images/feature-earn.png"
 import FeatureImg5 from "../../assests/images/cooking.png"
 import Fade from 'react-reveal/Fade';
-import { Button } from 'antd';
 import Accessbtn from '../AcessButton/accessbtn';
 
 

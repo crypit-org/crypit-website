@@ -7,7 +7,6 @@ import { SiYoutubemusic } from "react-icons/si";
 import { IconContext } from "react-icons";
 import Logo from "../../assests/images/logo3.0.png";
 import {Link} from "react-router-dom";
-import { Fade } from "react-reveal";
 
 function Footer(props) {
   return (

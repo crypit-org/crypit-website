@@ -102,12 +102,14 @@ p{
         margin-top: 15px;
     }
     .get-playstore .ant-btn{
-width: 90%;
+margin-bottom: 20px;
     }
     .get-playstore .how-work{
         display: flex;
       justify-content: center;
       align-items: center;
       margin-left: 0px !important;
+   
+      font-size: 12px;
             }
 }

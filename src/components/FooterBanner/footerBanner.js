@@ -1,7 +1,6 @@
 import React from 'react';
 import "./footerBanner.css"
 import 'antd/dist/antd.css';
-import { Button } from 'antd';
 import Eth from "../../assests/images/bitcoin-banner.png"
 import Exchange from "../../assests/images/blog2.png"
 import Earn from "../../assests/images/earn.png"
