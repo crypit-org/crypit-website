@@ -74,8 +74,9 @@ p{
 .Rocket-img{
     display: block;
     margin: auto;
-    width: 50%;
+    width: 200px;
     margin-bottom: 50px;
+    height: 200px;
 }
 .ant-modal-footer{
     padding: 10px 16px 50px !important;
