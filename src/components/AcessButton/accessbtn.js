@@ -7,7 +7,11 @@ import Rocket from "../../assests/images/rocket.png";
 
 function Accessbtn({title}) {
     const [isModalVisible, setIsModalVisible] = useState(false);
+    const [name, setName] = useState("");
+    const [mailId, setMailId] = useState("");
 
+    console.log("name" , name)
+    console.log("mail" , mailId)
     //join early btn
     const showModal = () => {
       setIsModalVisible(true);
@@ -17,8 +21,8 @@ function Accessbtn({title}) {
     const joinEarly = async () => {
       // User details goes here
       var templateParams = {
-        from_name: 'Joe',
-        email: "test@gmail.com"
+        from_name: name,
+        email:mailId
       };
       try {
         let response = await emailjs.send(
@@ -54,9 +58,9 @@ function Accessbtn({title}) {
       >
         <img className="Rocket-img" src={Rocket} alt="Rocket" />
         <h3 style={{ textAlign: 'center', marginBottom: "10px" }}>Enter your Name</h3>
-        <Input placeholder="Name" type="text" style={{ marginBottom: "20px" }} />
+        <Input placeholder="Name" type="text" style={{ marginBottom: "20px" }} onChange={(e)=>setName(e.target.value)}/>
         <h3 style={{ textAlign: 'center', marginBottom: "10px" }}>Enter your Email Address</h3>
-        <Input placeholder="Email Id" type="email" style={{ marginBottom: "20px" }} />
+        <Input placeholder="Email Id" type="email" style={{ marginBottom: "20px" }} onChange={(e)=>setMailId(e.target.value)}/>
       </Modal>
         </div>
     );
