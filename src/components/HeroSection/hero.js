@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "./hero.css";
 import BannerImage from "../../assests/images/started-main.png";
 
 import Fade from "react-reveal/Fade";
 import "antd/dist/antd.css";
-import { Button, Input, Modal } from "antd";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { IconContext } from "react-icons";
-import emailjs from '@emailjs/browser';
 import Accessbtn from "../AcessButton/accessbtn";
 
 function HeroSection(props) {
-
-
-
   return (
     <div className="hero-section">
       <div className="left-cont">
@@ -29,8 +24,8 @@ function HeroSection(props) {
         <Fade left>
           {" "}
           <div className="get-playstore">
-            <Accessbtn title="Join Early Access"/>
-            <button  className="how-work">
+            <Accessbtn title="Join Early Access" />
+            <button className="how-work">
               <div style={{ display: "flex", alignItem: "center" }}>
                 <IconContext.Provider
                   value={{
@@ -48,7 +43,7 @@ function HeroSection(props) {
           </div>
         </Fade>
       </div>
- 
+
 
       <div className="right-cont">
         <img className="hero-img" src={BannerImage} alt="hero " />
