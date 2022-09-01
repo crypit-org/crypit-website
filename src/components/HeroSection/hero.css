@@ -37,6 +37,7 @@ p{
 }
 .get-playstore{
     display: flex;
+    align-items: center;
 }
 .play-img{
     margin-right: 35px;
@@ -47,20 +48,9 @@ p{
     width: 520px;
     height: 475px;
 }
-.ant-btn-primary {
-    margin-top: 10px !important;
-    border-radius: 8px !important;
-    height: 50px !important;
-    color: #edd502 !important;
-    background: #0f2310 !important;
-    border: none !important;
-    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
-    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 600 !important;
-}
+
 .how-work{
+    height: 50px;
     background: none !important;
     border: 2px #0f2310 solid !important;
     border-radius: 8px !important;
@@ -71,23 +61,8 @@ p{
     font-weight: 600 !important;
 }
 
-.Rocket-img{
-    display: block;
-    margin: auto;
-    width: 100px;
-    margin-bottom: 50px;
-    height: 100px;
-}
-.ant-modal-footer{
-    padding: 0px 16px 30px !important ;
-text-align: center !important;
-}
-.ant-modal{
-    max-width: calc(40vw - 32px) !important;
-}
-.ant-modal-content{
-    border-radius: 20px !important;
-}
+
+
 @media (min-width:350px) and (max-width:1024px) {
     .hero-section{
         margin:50px 20px;

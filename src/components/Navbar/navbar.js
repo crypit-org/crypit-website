@@ -14,11 +14,6 @@ function Navbar() {
   const Close = () => setClick(false);
   const navigate = useNavigate();
 
-  const moveBlog =() => {
-// return window.open("http://crypit.blog");
-navigate("http://crypit.blog");
-  }
-
   let page = "";
   const getCurrentPage = () => {
     switch (window.location.pathname) {

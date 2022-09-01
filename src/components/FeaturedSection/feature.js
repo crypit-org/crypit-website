@@ -7,6 +7,7 @@ import FeatureImg4 from "../../assests/images/feature-earn.png"
 import FeatureImg5 from "../../assests/images/cooking.png"
 import Fade from 'react-reveal/Fade';
 import { Button } from 'antd';
+import Accessbtn from '../AcessButton/accessbtn';
 
 
 function Feature(props) {
@@ -15,7 +16,8 @@ function Feature(props) {
             <div className='feature-banner'>
             <div className='banner-detail'>
         <h1 className='banner-head'>Simple and Secure way to manage buy, sell, earn and spend crypto</h1>
-        <Button type="primary" className='banner-head-btn' >Join Early Access</Button>
+        {/* <Button type="primary" className='banner-head-btn' >Join Early Access</Button> */}
+        <Accessbtn title="Join Early Access" />
             </div>
             <div className='banner-cards'>
             <div className='single-card'><h2>Buy &amp; Sell crypto</h2><p >Buy, sell, exchange and withdraw crypto easily using the fully featured app</p> </div>
