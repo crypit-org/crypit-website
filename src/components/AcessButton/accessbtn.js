@@ -52,6 +52,7 @@ function Accessbtn({ title }) {
     }
   };
 
+
   // cross icon
   const handleCancel = () => {
     setIsModalVisible(false);
@@ -118,7 +119,7 @@ function Accessbtn({ title }) {
             />
           </Form.Item>
           <Form.Item style={{textAlign:"center"}}>
-          <Button type="primary" htmlType="submit" >
+          <Button type="primary" htmlType="submit" onClick={joinEarly}>
           Get Access
         </Button>
         </Form.Item>
