@@ -20,20 +20,19 @@ function ContactUs(props) {
   const sendEmail = async () => {
     // User details goes here
     var templateParams = {
-      firstName,
-      lastName,
-      email,
-      phone,
-      desc,
+      first_name: firstName,
+      last_name: lastName,
+      email: email,
+      mobile_no: phone,
+      desc: desc,
     };
     try {
-      let response = await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_PUBLIC_KEY
-      );
-      console.log("SUCCESS!", response.status, response.text);
+      // let response = await emailjs.send(
+      //   process.env.REACT_APP_SERVICE_ID,
+      //   process.env.REACT_APP_TEMPLATE_ID,
+      //   templateParams,
+      //   process.env.REACT_APP_PUBLIC_KEY
+      // );
      
       NotificationManager.success(
         "Check you email for more details, we'll see you soon!",
