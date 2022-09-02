@@ -31,13 +31,12 @@ function Accessbtn({ title }) {
       email: mailId,
     };
     try {
-      let response = await emailjs.send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_PUBLIC_KEY
-      );
-      console.log("SUCCESS!", response.status, response.text);
+      // let response = await emailjs.send(
+      //   process.env.REACT_APP_SERVICE_ID,
+      //   process.env.REACT_APP_TEMPLATE_ID,
+      //   templateParams,
+      //   process.env.REACT_APP_PUBLIC_KEY
+      // );
       setIsModalVisible(false);
       NotificationManager.success(
         "Check you email for more details, we'll see you soon!",
