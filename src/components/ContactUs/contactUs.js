@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { IconContext } from "react-icons";
-import { Form,Input, Button } from "antd";
+import {Modal, Form,Input, Button } from "antd";
 import emailjs from "@emailjs/browser";
 import {
   NotificationManager,
@@ -33,7 +33,14 @@ function ContactUs(props) {
       //   templateParams,
       //   process.env.REACT_APP_PUBLIC_KEY
       // );
-     
+      let response = {status:200}     
+      if (response.status = 200) {
+        Modal.success({
+          title: 'Awesome',
+          content: "Check you email for more details, we'll see you soon!",
+        });
+        
+      }
       NotificationManager.success(
         "Check you email for more details, we'll see you soon!",
         "Awesome"

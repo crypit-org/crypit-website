@@ -6,10 +6,13 @@ import emailjs from "@emailjs/browser";
 import Rocket from "../../assests/images/rocket.png";
 import { NotificationManager } from "react-notifications";
 
+const initialState = " ";
+
 function Accessbtn({ title }) {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [name, setName] = useState("");
   const [mailId, setMailId] = useState("");
+
   const onFinish = (values) => {
     console.log("Success:", values);
   };
@@ -31,17 +34,31 @@ function Accessbtn({ title }) {
       email: mailId,
     };
     try {
-      // let response = await emailjs.send(
-      //   process.env.REACT_APP_SERVICE_ID,
-      //   process.env.REACT_APP_TEMPLATE_ID,
-      //   templateParams,
-      //   process.env.REACT_APP_PUBLIC_KEY
-      // );
-      setIsModalVisible(false);
-      NotificationManager.success(
-        "Check you email for more details, we'll see you soon!",
-        "Awesome"
-      );
+      if (name.trim() == "" || mailId.trim() == "") {
+        return;
+      }
+      // let response = await emailjs
+      //   .send(
+      //     process.env.REACT_APP_SERVICE_ID,
+      //     process.env.REACT_APP_TEMPLATE_ID,
+      //     templateParams,
+      //     process.env.REACT_APP_PUBLIC_KEY
+      //   )  
+
+      let response = {status:200}     
+          if (response.status = 200) {
+            setIsModalVisible(false);
+            Modal.success({
+              title: 'Awesome',
+              content: "Check you email for more details, we'll see you soon!",
+            });
+            
+          }
+          NotificationManager.success(
+            "Check you email for more details, we'll see you soon!",
+            "Awesome"
+          );
+    
     } catch (err) {
       NotificationManager.warning(
         "Unable to register, Please try again later!",
@@ -51,7 +68,6 @@ function Accessbtn({ title }) {
       console.error("Error on Get Early Access: EMAILJS.");
     }
   };
-
 
   // cross icon
   const handleCancel = () => {
@@ -118,11 +134,11 @@ function Accessbtn({ title }) {
               required
             />
           </Form.Item>
-          <Form.Item style={{textAlign:"center"}}>
-          <Button type="primary" htmlType="submit" onClick={joinEarly}>
-          Get Access
-        </Button>
-        </Form.Item>
+          <Form.Item style={{ textAlign: "center" }}>
+            <Button type="primary" htmlType="submit" onClick={joinEarly}>
+              Get Access
+            </Button>
+          </Form.Item>
         </Form>
       </Modal>
     </div>
