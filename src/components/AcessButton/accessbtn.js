@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 import "./accessbtn.css";
 import "antd/dist/antd.css";
-import { Button, Input, Modal } from "antd";
+import { Form, Button, Input, Modal } from "antd";
 import emailjs from "@emailjs/browser";
 import Rocket from "../../assests/images/rocket.png";
-import {
-  NotificationManager,
-} from "react-notifications";
+import { NotificationManager } from "react-notifications";
 
 function Accessbtn({ title }) {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [name, setName] = useState("");
   const [mailId, setMailId] = useState("");
+  const onFinish = (values) => {
+    console.log("Success:", values);
+  };
+
+  const onFinishFailed = (errorInfo) => {
+    console.log("Failed:", errorInfo);
+  };
 
   //join early btn
   const showModal = () => {
@@ -72,31 +77,47 @@ function Accessbtn({ title }) {
         cancelButtonProps={{ style: { display: "none" } }}
       >
         <img className="Rocket-img" src={Rocket} alt="Rocket" />
-        <div className="flex-modal">
-          <h3 style={{ textAlign: "center", marginBottom: "10px" }}> Name :</h3>
-          <Input
-            placeholder="Name"
-            type="text"
-            className="flex-modal-input"
-            style={{ marginBottom: "20px" }}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
-        </div>
-        <div className="flex-modal">
-          <h3 style={{ textAlign: "center", marginBottom: "10px" }}>
-            {" "}
-            Email :{" "}
-          </h3>
-          <Input
-            placeholder="Email Id"
-            type="email"
-            className="flex-modal-input"
-            style={{ marginBottom: "20px" }}
-            onChange={(e) => setMailId(e.target.value)}
-            required
-          />
-        </div>
+        <Form>
+          <Form.Item
+            label="Name"
+            name="Name"
+            rules={[
+              {
+                required: true,
+                message: "Please input your username!",
+              },
+            ]}
+          >
+            <Input
+              placeholder="Name"
+              type="text"
+              className="flex-modal-input"
+              style={{ marginBottom: "20px" }}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </Form.Item>
+
+          <Form.Item
+            label="Email"
+            name="Email"
+            rules={[
+              {
+                required: true,
+                message: "Please input your Email!",
+              },
+            ]}
+          >
+            <Input
+              placeholder="Email Id"
+              type="email"
+              className="flex-modal-input"
+              style={{ marginBottom: "20px" }}
+              onChange={(e) => setMailId(e.target.value)}
+              required
+            />
+          </Form.Item>
+        </Form>
       </Modal>
     </div>
   );
