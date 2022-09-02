@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { IconContext } from "react-icons";
-import { Input, Button } from "antd";
+import { Form,Input, Button } from "antd";
 import emailjs from "@emailjs/browser";
 import {
   NotificationManager,
@@ -78,24 +78,55 @@ function ContactUs(props) {
         </div>
         <div className="about-contact">
           <h3 className="about-contact-note">We would love to hear from you</h3>
+          <Form>
           <div className="names">
+          <Form.Item
+          className="form-style"
+            rules={[
+              {
+                required: true,
+                message: "Please input your first name!",
+              },
+            ]}
+          >
             <Input className="input-fields" placeholder="First name" type="text" required onChange={(e)=>SetFirstName(e.target.value)}/>
+           </Form.Item>
+           <Form.Item       className="form-style">
             <Input className="input-fields field2" placeholder="Last name" type="text" onChange={(e)=>SetLastName(e.target.value)}/>
+            </Form.Item>
           </div>
           <div className="names">
+          <Form.Item
+                className="form-style"
+            rules={[
+              {
+                required: true,
+                message: "Please input your email address!",
+              },
+            ]}
+          >
           <Input className="input-fields" placeholder="Email Address" type="email" required onChange={(e)=>SetEmail(e.target.value)}/>
-          <Input className="input-fields field2" placeholder="Phone Number" type="number"  onChange={(e)=>SetPhone(e.target.value)}/>
+          </Form.Item>
+          <Form.Item       className="form-style">
+          <Input className="input-fields field2" placeholder="Phone Number with country code" type="number"  onChange={(e)=>SetPhone(e.target.value)}/>
+          </Form.Item>
           </div>
-          <TextArea
+          <Form.Item
+        name="intro"
+        rules={[{ required: true, message: "Don't forget to share your thoughts" }]}
+      >
+          <Input.TextArea
             placeholder="You can tell us here!"
             showCount
             maxLength={100}
             style={{ height: 120 }} 
             onChange={(e)=>SetDesc(e.target.value)}
           />
-          <Button type="primary" className="contact-btn" onClick={sendEmail}>
+          </Form.Item>
+          <Button type="primary" htmlType="submit" className="contact-btn" onClick={sendEmail}>
             Send Message
           </Button>
+          </Form>
         </div>
       </div>
     </div>

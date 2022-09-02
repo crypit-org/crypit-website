@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');;
-
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}   
+.form-style{
+    width: 50%;
+}
 .contact-sec{
 margin:50px auto;
 }
@@ -91,7 +98,17 @@ margin:10px auto 0;
 .ant-input:hover{
     border-color: #0f2310 !important;
 }
+textarea.ant-input{
+    width: 104% !important;
+    max-width: none;
+}
 @media (min-width:350px) and (max-width:1024px) {
+    textarea.ant-input{
+        width: 100% !important;
+    }
+    .form-style{
+        width: 100%;
+    }
     .cont-detail{
         display: flex;
         flex-direction: column;

@@ -74,6 +74,7 @@ function Accessbtn({ title }) {
         okText="Get Access"
         onCancel={handleCancel}
         cancelButtonProps={{ style: { display: "none" } }}
+        okButtonProps={{ style: { display: "none" } }}
       >
         <img className="Rocket-img" src={Rocket} alt="Rocket" />
         <Form>
@@ -116,6 +117,11 @@ function Accessbtn({ title }) {
               required
             />
           </Form.Item>
+          <Form.Item style={{textAlign:"center"}}>
+          <Button type="primary" htmlType="submit" >
+          Get Access
+        </Button>
+        </Form.Item>
         </Form>
       </Modal>
     </div>
