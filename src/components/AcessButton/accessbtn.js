@@ -6,20 +6,10 @@ import emailjs from "@emailjs/browser";
 import Rocket from "../../assests/images/rocket.png";
 import { NotificationManager } from "react-notifications";
 
-const initialState = " ";
-
 function Accessbtn({ title }) {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [name, setName] = useState("");
   const [mailId, setMailId] = useState("");
-
-  const onFinish = (values) => {
-    console.log("Success:", values);
-  };
-
-  const onFinishFailed = (errorInfo) => {
-    console.log("Failed:", errorInfo);
-  };
 
   //join early btn
   const showModal = () => {
@@ -34,31 +24,25 @@ function Accessbtn({ title }) {
       email: mailId,
     };
     try {
-      if (name.trim() == "" || mailId.trim() == "") {
+      if (name.trim() === "" || mailId.trim() === "") {
         return;
       }
-      // let response = await emailjs
-      //   .send(
-      //     process.env.REACT_APP_SERVICE_ID,
-      //     process.env.REACT_APP_TEMPLATE_ID,
-      //     templateParams,
-      //     process.env.REACT_APP_PUBLIC_KEY
-      //   )  
+      let response = await emailjs
+        .send(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          templateParams,
+          process.env.REACT_APP_PUBLIC_KEY
+        );
 
-      let response = {status:200}     
-          if (response.status = 200) {
-            setIsModalVisible(false);
-            Modal.success({
-              title: 'Awesome',
-              content: "Check you email for more details, we'll see you soon!",
-            });
-            
-          }
-          NotificationManager.success(
-            "Check you email for more details, we'll see you soon!",
-            "Awesome"
-          );
-    
+      if (response.status === 200) {
+        setIsModalVisible(false);
+        Modal.success({
+          title: 'Awesome',
+          content: "Check you email for more details, we'll see you soon!",
+        });
+
+      }
     } catch (err) {
       NotificationManager.warning(
         "Unable to register, Please try again later!",
