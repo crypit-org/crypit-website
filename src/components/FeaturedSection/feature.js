@@ -20,9 +20,9 @@ function Feature(props) {
                     <Accessbtn title="Join Early Access" />
                 </div>
                 <div className='banner-cards'>
-                    <div className='single-card'><h2>HODL</h2><p >Integrate your existing wallets and exchange accounts to manage your crypto potfolio in one place.</p> </div>
-                    <div className='single-card'><h2>LEARN</h2><p >Keep updated with latest market news &amp; experts views from CrypIT-Shorts. And plan your investments.</p> </div>
-                    <div className='single-card'><h2>EARN</h2><p >Up to 14.7% yearly on your crypto and stablecoins. Flexible Earn with No-lock in option.</p> </div>
+                    <div className='single-card'><h2>HODL</h2><p >Integrate your existing Wallets and Exchange accounts to manage your crypto potfolio in one place.</p> </div>
+                    <div className='single-card'><h2>LEARN</h2><p >Latest crypto trends &amp; experts insights from CrypIT-Shorts, helps you to understand the market better.</p> </div>
+                    <div className='single-card'><h2>EARN</h2><p >Up to 14.7% yearly on your crypto and stablecoins. Flexible Earn option with no-lock in period.</p> </div>
                     <div className='single-card'><h2>SPEND</h2><p >Contact based Crypto - Crypto / Fiat transfers. And much more options to spend your digital asset in real world use.</p> </div>
                 </div>
             </div>
@@ -77,8 +77,8 @@ function Feature(props) {
                         <div className='detail2'>
                             <h1 className='detail-head'>Learn</h1>
                             <ul className='detail-list'>
-                                <li>CrypIT-Shorts keeps you updated with latest market news</li>
-                                <li>Get expert views and predictions</li>
+                                <li>CrypIT-Shorts keeps you updated with latest market news, events, products.,</li>
+                                <li>Get expert's insights and predictions</li>
                                 <li>Share your portfolio and knowledge; Monetize your content</li>
                                 <li>Plan your investments with market performance</li>
                             </ul>
@@ -92,8 +92,8 @@ function Feature(props) {
                         <div className='detail2'>
                             <h1 className='detail-head'>Earn</h1>
                             <ul className='detail-list'>
-                                <li>Earn passive income on you crypto HODLings</li>
-                                <li>Flexible Savings with no lock-in period</li>
+                                <li>Earn passive income on your crypto HODLings</li>
+                                <li>Flexible Earn with no lock-in period</li>
                                 <li>Get Join Bonus &amp; Exciting Referral rewards</li>
                             </ul>
                             <p className='detail-para'> </p>
