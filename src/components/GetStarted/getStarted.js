@@ -42,7 +42,7 @@ function GetStarted(props) {
             <div className="about-points-started">
               <div className="point1">2. Setup Wallets</div>
               <div className="point2">
-              Import existing wallets &amp; exchange accounts; Easily manage your existing portfolio
+              Import existing wallets &amp; exchange accounts; Manage your crypto portfolio in single place
               </div>
             </div>
           </div>

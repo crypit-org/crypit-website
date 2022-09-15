@@ -13,7 +13,7 @@ function Footer(props) {
     <div className="footer">
       <div className="footer-email " style={{width:350}}>
       <img className="logo-footer" src={Logo} alt="logo" width={175} />
-      <p className="footer-desc">A crypto payment app that makes your Crypto transfers &amp; spendings much easier and seamless than ever.</p>
+      <p className="footer-desc">An unified app to make your digital asset journey much easier and seamless than ever.</p>
             </div>
       <div className="footer-email">
         <div className="contact-no">Company</div>

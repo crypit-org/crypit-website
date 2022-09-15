@@ -16,8 +16,7 @@ function HeroSection(props) {
         </Fade>
         <Fade left>
           <p>
-            A crypto payment app that makes your Fiat &#60; &#62; Crypto
-            transfers &amp; spendings much easier and seamless than ever.
+            An unified app to make your digital asset journey much easier and seamless than ever.
           </p>
         </Fade>
         <Fade left>
