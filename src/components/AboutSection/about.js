@@ -23,8 +23,8 @@ function About(props) {
                 <h1 className='crypit-heading'>Just CrypIT</h1>
                 <ul className='detail-list-crypit'>
                                 <li>Integrate your existing wallets, exchange accounts and manage all your potfolio in single platform.</li>
-                                <li>Plan your investments with hot &amp; short Market news and fellow investor's views.</li>
-                                <li>Hassle free crypto on-ramp via credit card, bank transfers or your payment system.</li>
+                                <li>Keep update yourself with latest market news, products, events and expert's insights.</li>
+                                <li>Avail hassle free crypto on-ramp via credit card, bank transfers or any of your payment system.</li>
                                 <li>Transfer / Pay to anyone via mobile number, wallet address or custom url.</li>
                                 <li>And lot more to put your digital world much better.</li>
                             </ul>
@@ -37,15 +37,15 @@ function About(props) {
             <div className='about-points'>
                 <div className='container'>
                     <img className="cont-img" src={About1} alt="about img" />
-                    <p className='cont-text'>An unified app for your Digital asset</p>  
+                    <p className='cont-text'>An unified app for your Digital Asset</p>  
                 </div>
                 <div className='container'>
                     <img className="cont-img" src={shorts} alt="about img" width={200}/>
-                    <p className='cont-text'>Market updates &amp; Expert views </p>  
+                    <p className='cont-text'>Market trends &amp; Expert's insights </p>  
                 </div>
                 <div className='container'>
                     <img className="cont-img" src={About2} alt="about img" width={200}/>
-                    <p className='cont-text'>Hassle free transfers to anyone   </p>  
+                    <p className='cont-text'>Hassle free transfers to anyone</p>  
                 </div>
                 <div className='container'>
                     <img className="cont-img" src={About3} alt="about img" />
