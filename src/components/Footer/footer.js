@@ -1,99 +1,48 @@
-import React from "react";
-import "./footer.css";
-import { AiFillMediumCircle } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { SiYoutubemusic } from "react-icons/si";
-import { IconContext } from "react-icons";
-import Logo from "../../assests/images/logo3.0.png";
-import {Link} from "react-router-dom";
+import React from 'react';
+import "./footer.css"
+import Insta from "../../assests/img-2.0/_Instagram.svg"
+import Linkedin from "../../assests/img-2.0/_Linkedin.svg"
+import Twitter from "../../assests/img-2.0/_Twitter.svg"
+
 
 function Footer(props) {
-  return (
-    <div className="footer">
-      <div className="footer-email " style={{width:350}}>
-      <img className="logo-footer" src={Logo} alt="logo" width={175} />
-      <p className="footer-desc">An unified app to make your digital asset journey much easier and seamless than ever.</p>
-            </div>
-      <div className="footer-email">
-        <div className="contact-no">Company</div>
-        <ul className="footer-ul-list">
-         <Link to=""> <li>Home</li> </Link> 
-         <Link to="/feature"> <li>Features</li> </Link>
-         <li onClick={()=>window.open("http://crypit.blog")}>Blog</li> 
-         <Link to="/contact"> <li>Contact Us</li> </Link>  
-        </ul>
-            </div>
-      <div className="footer-email">
-        <div className="contact-no">More</div>
-        <ul className="footer-ul-list">
-          <li>FAQ</li>
-          <li>Privacy</li>
-          <li>Terms</li>
-     
-        </ul>
-            </div>
-            
-
-      <div className="footer-detail">
-        {/* <img className="logo-footer" src={Logo} alt="logo" width={175} /> */}
-        <h1 className="disc-app">Discover our app</h1>
-        <div className="section-footer"></div>
-
-        <div className="mail">
-          <div className="mail-footer">support@crypit.app</div>
-          <div className="social-links">
-            <IconContext.Provider
-              value={{
-                color: "white",
-                size: "2em",
-                className: "global-class-name",
-              }}
-            >
-              <div style={{ margin: "auto 5px" }}>
-                <BsTelegram />
-              </div>
-            </IconContext.Provider>
-            <IconContext.Provider
-              value={{
-                color: "white",
-                size: "2em",
-                className: "global-class-name",
-              }}
-            >
-              <div style={{ margin: "auto 5px" }}>
-                <AiFillTwitterCircle />
-              </div>
-            </IconContext.Provider>
-
-            <IconContext.Provider
-              value={{
-                color: "white",
-                size: "2em",
-                className: "global-class-name",
-              }}
-            >
-              <div style={{ margin: "auto 5px" }}>
-                <SiYoutubemusic />
-              </div>
-            </IconContext.Provider>
-
-            <IconContext.Provider
-              value={{
-                color: "white",
-                size: "2em",
-                className: "global-class-name",
-              }}
-            >
-              <div style={{ margin: "auto 5px" }}>
-                <AiFillMediumCircle />
-              </div>
-            </IconContext.Provider>
+    return (
+        <div className='footer-section'>
+            <div className='footer-detail'>
+                <div >
+                    <div className='crypit-name'>CrypIT</div>
+                    <div className='footer-description'>An unified app to make your digital asset journey much easier and seamless than ever.</div>
+                        <div className="follow-handles">
+            <div className="follow-text">Follow Us</div>
+            <img src={Twitter} alt="insta-icon" style={{marginRight:34}}/>
+            <img src={Linkedin} alt="insta-icon" style={{marginRight:34}}/>
+            <img src={Insta} alt="insta-icon" style={{marginRight:34}}/>
           </div>
+    
+                </div>
+                <div className='footer-part'>
+                    <div className='footer-part1'>
+                        <div className='footer-part-title'>About Us</div>
+                        <div className='footer-part-title'>Blogs</div>
+                    </div>
+                    <div className='footer-part2'>
+                    <div className='footer-part-title'>FAQ</div>
+                    <div className='footer-part-title'>Privacy</div>
+                    <div className='footer-part-title'>Terms</div>
+                    </div>
+                    <div className='footer-part3'>
+                    <div className='footer-part-title'>Contact Us</div>
+                   <div className='contact-us-desc'>Lorem Ipsum has
+been the industry's
+standard dummy
+when an unknown printer took.
+</div>
+                    </div>
+                </div>
+            </div>
+           <div className='footer-reserved'>© 2022 Crypit | Security | Your Privacy | Terms</div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
 
 export default Footer;

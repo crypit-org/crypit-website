@@ -1,0 +1,40 @@
+
+
+.why-crypit{
+padding: 0 120px ;
+background-color: #011F1A; position: relative;
+}
+
+.why-crypit-img{
+   
+}
+
+.why-crypit-container{
+    width: 717px;
+    height: 398px;padding: 30px;
+    background-color: #dad1c6;
+    border-radius: 8px;
+    /* background: linear-gradient(105.76deg, rgba(255, 126, 17) 1.35%, rgba(1, 31, 26) 100%); */
+    position: absolute;
+    bottom: 0;
+    left: 675px;
+}
+.container-data{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;    
+    margin: 35px 0 20px;
+}
+.point-data{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+width: 241px;
+color: #414240;
+padding: 12px 16px;
+margin: 5px;
+}

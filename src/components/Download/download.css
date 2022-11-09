@@ -1,0 +1,45 @@
+.download-container{
+    position: relative;
+}
+
+.back-50{
+    background-color: #011F1A;
+    height: 500px;
+    padding: 140px 116px 10px;
+}
+.back-100{
+    background-color: #d8d6d0;
+    height: 400px;
+}
+.download-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:208px 208px 0;
+}
+
+.description-detail{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #011F1A;
+width: 615px;
+margin: auto;
+}
+.mob1{
+position: absolute;
+top: 400px;
+left: 300px;
+}
+.mob2{
+    position: absolute;
+    top: 320px;
+    left: 600px;
+}
+.mob3{
+    position: absolute;
+    top: 400px;
+    right: 400px;
+}
