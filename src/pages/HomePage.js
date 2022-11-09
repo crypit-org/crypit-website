@@ -2,7 +2,7 @@ import React from 'react';
 import Download from '../components/Download/Download';
 import Faq from '../components/FAQsection/Faq';
 import Feature from '../components/FeatureSection/Feature';
-import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer/footer';
 import Home from '../components/HomeSection/home';
 import HowItWorks from '../components/HowitWorks/HowItWorks';
 import Navbar from '../components/Navbar/navbar';
