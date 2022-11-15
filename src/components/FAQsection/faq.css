@@ -45,3 +45,14 @@ text-align: center;
         padding: 80px 50px!important;
     }
 }
+
+@media (min-width:325px) and (max-width:999px) {
+   
+    .faq-section{
+        padding: 78px 20px!important;
+    }
+    .faq-heading{
+        width: auto;
+        font-size: 32px;
+    }
+}

@@ -124,3 +124,39 @@ left: 350px;
         left: 900px;
     }
 }
+
+@media (min-width:325px) and (max-width:999px){
+    .back-50{
+        padding: 100px 20px 10px;
+        height: 350px;
+    }
+    .mob1, .mob2{
+        width: 152px;
+height: 274px;
+    }
+    .mob1 {
+        position: absolute;
+        top: 250px;
+        left: 20px;
+    }
+    .mob2 {
+        position: absolute;
+        top: 300px;
+        left: 200px;
+    }
+    .mob3{
+        display: none;
+    }
+    .download-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 175px 30px 0;
+    }
+    .description-detail{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

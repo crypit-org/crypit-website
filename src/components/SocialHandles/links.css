@@ -43,3 +43,29 @@ text-align: center;
 
 color: #FFFFFF;
 }
+@media (min-width:325px) and (max-width:999px) {
+    .faq-sec {
+        padding: 30px;
+    }
+    .handles{
+        margin: 40px auto 10px;
+    }
+    .social-media-box{
+        margin-bottom: 15px;
+        padding:20px;
+    }
+    .social-icon{
+        width: 48px;
+        height: 48px;
+        padding: 25px;
+    }
+    .user-name{
+        font-size: 12px;
+        
+    padding: 10px 0 6px;
+
+    }
+    .user-id{
+        font-size: 14px;
+    }
+}

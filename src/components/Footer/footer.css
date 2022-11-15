@@ -80,3 +80,21 @@ padding-top: 24px;
         padding-right: 50px;
     }
 }
+
+@media (min-width:325px) and (max-width:999px) {
+    .footer-section{
+        padding: 80px 30px 30px;
+    }.footer-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contact-us-desc{
+        display: none;
+    }
+    .footer-part1, .footer-part2{
+        padding-top: 30px;
+        padding-right: 20px;
+    }
+}

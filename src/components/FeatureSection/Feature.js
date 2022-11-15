@@ -22,7 +22,7 @@ function Feature(props) {
         <img src={PhoneImg} alt=" " title='Feature 1' className='feature-img'/>
      </div>
 
-     <div className='Feature1'>
+     <div className='Feature2'>
      <img src={PhoneImg} alt=" " title='Feature 1' className='feature-img'/>
 
         <div className='feature2-details'>

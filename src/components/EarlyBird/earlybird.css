@@ -11,3 +11,21 @@ font-size: 56px;
 line-height: 150%;
 color: #011F1A;
 }
+.form-early-access{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 15px ;
+    width: 375px;
+
+}
+@media (min-width:325px) and (max-width:999px) {
+    .early-bird-cont{
+        padding: 129px 25px;
+    }
+    .early-bird-head{
+        font-size: 32px;
+    }
+    .form-early-access{
+        width: auto;
+    }
+}

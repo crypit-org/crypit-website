@@ -126,3 +126,28 @@ color: #111310;
     padding: 144px 75px 50px!important;
     }
 }
+@media (min-width:325px) and (max-width:999px) {
+    .contact-section{
+        padding:30px 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-card{
+        width: 300px;
+    }
+    .address-card{
+        width: 330px;
+    }
+    .location-img{
+        width: 325px;
+    }
+    .phone-email{
+        margin: 25px 0;
+    }
+    .phone-number,.phone-head, .addr-text{
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+}

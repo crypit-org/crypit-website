@@ -1,17 +1,29 @@
-.get-in-touch{
+.get-in-touch {
     padding: 150px 120px 100px;
     background: #011F1A;
 }
-.get-in-topic{
+
+.get-in-topic {
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 104px;
-line-height: 130%;
-text-align: left;
-background: linear-gradient(94.59deg, #FF7E11 1.33%, #FBE043 52.86%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 104px;
+    line-height: 130%;
+    text-align: left;
+    background: linear-gradient(94.59deg, #FF7E11 1.33%, #FBE043 52.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (min-width:325px) and (max-width:999px) {
+  
+    .get-in-touch {
+        padding: 100px 20px 150px;
+    }
+
+    .get-in-topic {
+        font-size: 40px;
+    }
 }

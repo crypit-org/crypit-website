@@ -180,7 +180,47 @@ opacity: 0.5;
     }
 }
 @media (min-width:325px) and (max-width:999px) {
-    
+ 
+    .hero-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 25px 0; 
+    }
+    .just-crypit{
+        font-size: 52px;
+        text-align: center;
+    }
+    .title-text{
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .join-early-combo{
+        width: 343px;
+    }
+    .hero-join-early-button{
+        width: auto;
+        padding: 21px 5px;
+    }
+    .follow-handles{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .hero-main-img {
+        width: 350px;
+    }
+    .hero-email-input{
+        width: auto;
+    }
+    .hero-card-section{
+        padding: 0 25px 56px;
+    }
+    .single-card{
+        height: 200px;
+        padding: 0 10px;
+    }
 }
 @media (min-width:1100px) and (max-width:1199px) {
     .hero-sec {

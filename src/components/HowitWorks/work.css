@@ -148,3 +148,55 @@ padding: 12px 46px;
         top: 328px;
     }
 }
+
+@media (min-width:325px) and (max-width:999px) {
+    .how-it-works{
+        padding: 20px 25px 10px;
+    }
+    .feature-sec-heading{
+        font-size: 32px;
+    }
+    .step-head{
+        font-size: 16px;
+        padding: 0 20px;
+        width: auto;
+    }
+    .step-desc{
+        font-size: 12px;
+        font-size: 12px;
+        padding: 5px 46px 5px 46px;
+        width: 250px;
+    }
+    .step1 {
+        width: 300px;
+        top: 125px;
+        left: 20px;
+    }
+    .step2 {
+        width: 300px;
+        top: 300px;
+        left: 20px;
+    }
+    .step3 {
+        width: 300px;
+        top: 500px;
+        left: 20px;
+    }
+    .line1,.line2{
+        display: none;
+    }
+    .arrow1 {
+        position: absolute;
+        top: 243px;
+        left: 250px;
+    }
+    .arrow2 {
+        position: absolute;
+        bottom: 17px;
+        left: 300px;
+    }
+    .ecllipse1,.ecllipse2{
+       display: none;
+    }
+    
+}
