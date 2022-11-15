@@ -65,3 +65,18 @@ line-height: 150%;
 color: #A6A6A6;
 padding-top: 24px;
 }
+
+@media (min-width:1100px) and (max-width:1200px) {
+    .footer-section{
+        padding: 80px 50px 30px;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1099px) {
+    .footer-section{
+        padding: 80px 50px 30px;
+    }
+    .footer-part1, .footer-part2{
+        padding-right: 50px;
+    }
+}

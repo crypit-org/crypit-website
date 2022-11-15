@@ -1,5 +1,5 @@
 .contact-section{
-    background-color: #d7d6d0;
+    background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%);
         padding: 144px 167px 50px;
         display: flex;
         justify-content: space-between;
@@ -107,4 +107,22 @@ color: #111310;
 
 .location-img{
     padding: 24px 0 ;
+}
+@media (min-width:1000px) and (max-width:1100px) {
+    .contact-card{
+        width: 425px;
+    }
+    .contact-section{
+    padding: 144px 50px 50px!important;
+    }
+}
+@media (min-width:1101px) and (max-width:1200px) {
+    .contact-section{
+    padding: 144px 50px 50px!important;
+    }
+}
+@media (min-width:1201px) and (max-width:1300px) {
+    .contact-section{
+    padding: 144px 75px 50px!important;
+    }
 }

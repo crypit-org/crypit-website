@@ -1,6 +1,6 @@
 import React from 'react';
 import "./download.css"
-import MobileVector from "../../assests/img-2.0/mob-overview.svg"
+import MobileVector from "../../assets/img-2.0/mob-overview.svg"
 
 function Download(props) {
     return (
@@ -14,7 +14,9 @@ function Download(props) {
             <img src={MobileVector} alt="mobile" className='mob3' />
             <div className='back-100'>
                 <div className='download-sec'>
-                    <div className='description-detail'>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</div>
+                    <div className='description-detail'>
+                    Download the app today to experience the world of crypto at your fingertips!
+                        </div>
                 <div className='join-cta'>Join Early Access</div>
                 </div>
             </div>

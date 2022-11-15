@@ -1,0 +1,13 @@
+.early-bird-cont{
+   
+    background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%);
+    padding: 72px 190px;
+}
+.early-bird-head{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 150%;
+color: #011F1A;
+}

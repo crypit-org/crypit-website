@@ -1,9 +1,9 @@
 import React from "react";
 import "./links.css";
-import Twitter from "../../assests/img-2.0/twitter.png";
-import LinkedIn from "../../assests/img-2.0/linkedin.png";
-import Insta from "../../assests/img-2.0/insta.png";
-import Telegram from "../../assests/img-2.0/wp.png";
+import Twitter from "../../assets/img-2.0/twitter.png";
+import LinkedIn from "../../assets/img-2.0/linkedin.png";
+import Insta from "../../assets/img-2.0/insta.png";
+import Telegram from "../../assets/img-2.0/tele-icon.png";
 
 function SocialLinks(props) {
   return (
@@ -29,11 +29,6 @@ function SocialLinks(props) {
         <div className="social-media-box">
           <img src={Telegram} alt="vector" className="social-icon" />
           <div className="user-name">Telegram</div>
-          <div className="user-id">@crypit</div>
-        </div>
-        <div className="social-media-box">
-          <img src={Telegram} alt="vector" className="social-icon" />
-          <div className="user-name">What's App</div>
           <div className="user-id">@crypit</div>
         </div>
        

@@ -1,8 +1,8 @@
 import React from 'react';
 import "./footer.css"
-import Insta from "../../assests/img-2.0/_Instagram.svg"
-import Linkedin from "../../assests/img-2.0/_Linkedin.svg"
-import Twitter from "../../assests/img-2.0/_Twitter.svg"
+import Insta from "../../assets/img-2.0/_Instagram.svg"
+import Linkedin from "../../assets/img-2.0/_Linkedin.svg"
+import Twitter from "../../assets/img-2.0/_Twitter.svg"
 
 
 function Footer(props) {

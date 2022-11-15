@@ -1,0 +1,69 @@
+.story-sec-cont{
+    background: #011F1A;
+    padding: 140px 120px 10px;
+}
+.story-sec{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.storyImg{
+    width: 514px;
+height: 600px;
+}
+
+.story-Cont{
+    margin-left: 48px;
+}
+.story-cont-title{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.story-cont-desc{
+    width: 463px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #F1F3F2;
+padding-top: 24px;
+}
+
+.vision-mission-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin: 147px 0;
+}
+.vm-img1, .vm-img2, .vm-img3, .vm-img4{
+    width: 238px;
+height: 310px;
+}
+.vm-img2{
+    margin: 120px 0px 0 30px;
+}
+.vm-img4{
+    margin: 30px 0px 0 30px;
+}
+.vm-img3{
+    margin: -100px 0 0 0;
+}
+.vision-mission-details{
+    margin-left: 48px;
+}
+.story-sub-topic{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+color: #FBE043;
+padding-top:24px ;
+width: 463px;
+}

@@ -1,6 +1,6 @@
 .home-comp {
     background-color: #011F1A;
-    padding:0 120px  56px;
+
 }
 
 .hero-sec {
@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:0 120px  56px;
 }
 
 .hero-main-img {
@@ -23,7 +24,6 @@
     font-size: 104px;
     line-height: 130%;
     /* or 135px */
-    text-align: center;
     background: linear-gradient(94.59deg, #FF7E11 1.33%, #FBE043 52.86%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -112,11 +112,12 @@ color: #A6A6A6;
 margin-right: 34px;
 }
 .hero-card-section{
+    padding:0 120px  56px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 .single-card{
     height: 163px;
@@ -158,14 +159,75 @@ opacity: 0.5;
     border-radius: 8px;
 }
 
+@media (min-width:1000px) and (max-width:1099px) {
+    .hero-sec  {
+        padding: 0 0px 56px 50px;
+    }
+    .hero-card-section{
+        padding: 0 50px 56px ;
+    }
+    .just-crypit{
+        font-size: 74px;    
+    }
+    .title-text-span,.title-text{
+        font-size: 20px;
+    }
+    .hero-main-img{
+        width: 515px;
+    }
+    .single-card{
+        width: 89%;
+    }
+}
+@media (min-width:325px) and (max-width:999px) {
+    
+}
+@media (min-width:1100px) and (max-width:1199px) {
+    .hero-sec {
+        padding: 0 0px 56px 50px;
+    }
+    .hero-main-img{
+        width: 515px;
+    }
+    .hero-card-section{
+        padding: 0 50px 56px ;
+    }
+    .just-crypit{
+        font-size: 74px;    
+    }
+    .title-text-span,.title-text{
+        font-size: 20px;
+    }
+    .single-card{
+        width: 89%;
+    }
+    .hero-card-section{
+justify-content: center;
+    }
+}
 @media (min-width:1200px) and (max-width:1300px) {
+    .hero-sec  {
+        padding: 0 0px 56px 80px;
+    }
+    .hero-card-section{
+        padding: 0 50px 56px ;
+    }
+.just-crypit{
+    font-size: 84px;    
+}
     .desc-sub-heading{
-        width: 315px;
+        width: 415px;
     }
 }
 @media (min-width:1301px) and (max-width:1400px) {
+    .hero-sec  {
+        padding: 0 88px 56px;
+    }
+    .just-crypit{
+        font-size: 84px;    
+    }
     .desc-sub-heading{
-        width: 365px;
+        width:390px;
     }
 }
 @media (min-width:1401px) and (max-width:1500px) {

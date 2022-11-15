@@ -1,15 +1,16 @@
 import React from 'react';
 import "./crypit.css"
-import PhoneImg from "../../assests/img-2.0/What is CrypIT.png"
+import PhoneImg from "../../assets/img-2.0/what-crypit.svg"
 
 function WhatisCrypit(props) {
     return (
         <div className='what-crypit-comp'> 
-          <div >
+          <div style={{paddingTop:106}}>
      <div className='heading'>What is crypit ?</div>
      <div className='underline'/>
      <p className='paragraph'>
-     CrypIT is an unified app built to make the users digital currency journey safe, simple and hassle free. It reduces the gap between traditional fiat and decentralised crypto currecncy.
+     CrypIT is an unified crypto super app built to make the web3 journey of everyday people safe, simple and hassle free. CrypIT aims to bridge the gap between traditional fiat and crypto currency.
+
       </p>
           </div>
           <img src={PhoneImg} alt="What is crypit?" className='crypit-phone'/>

@@ -10,13 +10,16 @@ import WhatisCrypit from '../components/WhatIsCrypit/WhatisCrypit';
 import WhyCrypit from '../components/WhyCrpit/WhyCrypit';
 
 function HomePage(props) {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
     return (
         <div>
           <Navbar/>
           <Home/> 
           <WhatisCrypit/> 
           <Feature/>
-          <WhyCrypit/>
+          {/* <WhyCrypit/> */}
           <HowItWorks/>
           <Download/>
           <Faq/>

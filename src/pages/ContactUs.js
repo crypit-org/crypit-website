@@ -7,10 +7,13 @@ import Navbar from '../components/Navbar/navbar';
 import SocialLinks from '../components/SocialHandles/SocialLinks';
 
 function ContactUs(props) {
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <div>
             <Navbar/>
-            <GetInTouch/>
+            <GetInTouch title="Get In Touch"/>
             <Contact/>
             <SocialLinks/>
             <Faq/>

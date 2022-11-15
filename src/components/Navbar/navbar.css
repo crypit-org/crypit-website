@@ -20,6 +20,7 @@ line-height: 36px;
 letter-spacing: 0em;
 text-align: left;
 color:#FFFFFF;
+cursor: pointer;
 }
 .routes{
     display: flex;
@@ -50,4 +51,10 @@ line-height: 20px;
 text-transform: capitalize;
 color: #111310;
 cursor: pointer;
+}
+
+@media screen and (max-width:1100px) {
+    .nav-comp{
+        display: none;
+    }
 }

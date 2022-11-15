@@ -1,6 +1,6 @@
 import React from 'react';
 import "./contact.css"
-import Map from "../../assests/img-2.0/map.png"
+import Map from "../../assets/img-2.0/map.png"
 
 function Contact(props) {
     return (

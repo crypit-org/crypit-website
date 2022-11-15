@@ -1,11 +1,11 @@
 import React from 'react';
 import "./feature.css"
-import FeatureImg1 from "../../assests/images/f-c.png"
-import FeatureImg2 from "../../assests/images/flexible.png"
-import FeatureImg3 from "../../assests/images/bank1.0.png"
-import MarketLearnImg from "../../assests/images/digital-market-news.png"
-import FeatureImg4 from "../../assests/images/feature-earn.png"
-import FeatureImg5 from "../../assests/images/cooking.png"
+import FeatureImg1 from "../../assets/images/f-c.png"
+import FeatureImg2 from "../../assets/images/flexible.png"
+import FeatureImg3 from "../../assets/images/bank1.0.png"
+import MarketLearnImg from "../../assets/images/digital-market-news.png"
+import FeatureImg4 from "../../assets/images/feature-earn.png"
+import FeatureImg5 from "../../assets/images/cooking.png"
 import Fade from 'react-reveal/Fade';
 import Accessbtn from '../AcessButton/accessbtn';
 

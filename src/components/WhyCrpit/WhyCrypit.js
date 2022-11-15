@@ -1,7 +1,7 @@
 import React from 'react';
 import "./whycrypit.css"
-import WhyCrypIT from "../../assests/img-2.0/why-crypit.svg"
-import Dot from "../../assests/img-2.0/dot.png"
+import WhyCrypIT from "../../assets/img-2.0/why-crypit.png"
+import Dot from "../../assets/img-2.0/dot.png"
 
 function WhyCrypit(props) {
     return (
@@ -13,27 +13,27 @@ function WhyCrypit(props) {
      <div className='container-data'>
         <div style={{display:'flex',alignItems:'center'}}>
         <img src={Dot} alt="vector"  />         
-            <p className='point-data'>An unified app for your Digital Asset </p>
+            <p className='point-data'>Consolidated Portfolio View </p>
         </div>
         <div style={{display:'flex',alignItems:'center'}}>
         <img src={Dot} alt="vector"  />     
-            <p className='point-data'>An unified app for your Digital Asset </p>
+            <p className='point-data'> Hassle free On-Ramp & Off-Ramp solutions</p>
         </div>
         <div style={{display:'flex',alignItems:'center'}}>
         <img src={Dot} alt="vector"  />     
-            <p className='point-data'>An unified app for your Digital Asset </p>
+            <p className='point-data'>Earn passive income & Swap assets at ease </p>
         </div>
         <div style={{display:'flex',alignItems:'center'}}>
         <img src={Dot} alt="vector"  />     
-            <p className='point-data'>An unified app for your Digital Asset </p>
+            <p className='point-data'>Learn, Build, Plan & Invest with the community </p>
         </div>
         <div style={{display:'flex',alignItems:'center'}}>
         <img src={Dot} alt="vector"  />     
-            <p className='point-data'>An unified app for your Digital Asset </p>
+            <p className='point-data'>CrypIT Shorts to stay updated in the decentralized world </p>
         </div>
         <div style={{display:'flex',alignItems:'center'}}>
         <img src={Dot} alt="vector"  />     
-            <p className='point-data'>An unified app for your Digital Asset </p>
+            <p className='point-data'>Instant UPI & QR fiat payments; Fast Bank Withdrawels</p>
         </div>
      </div>
             </div>

@@ -1,6 +1,6 @@
 .what-crypit-comp{
     background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%);
-    padding: 106px 120px;
+    padding: 0px 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -8,7 +8,7 @@
 }
 
 .crypit-phone{
-
+height: 700px;
 }
 .heading{
     font-family: 'Montserrat';
@@ -32,5 +32,32 @@ color: #111310;
     font-size: 16px;
     line-height: 150%;
     color: #414240;
-    margin-top: 29px;
+    margin-top: 35px;
+}
+@media (min-width:1100px) and (max-width:1199px) {
+    .paragraph{
+
+    }
+    .crypit-phone {
+        width: 515px;
+    }
+    .what-crypit-comp{
+        padding: 0px 70px;
+
+    }
+}
+@media (min-width:1000px) and (max-width:1099px) {
+    .paragraph{
+        width: 450px;
+    }
+    .heading{
+        font-size: 42px;
+    }
+    .crypit-phone {
+        width: 500px;
+    }
+    .what-crypit-comp{
+        padding: 0px 0 0 50px;
+
+    }
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import "./getintouch.css"
 
-function GetInTouch(props) {
+function GetInTouch({title}) {
     return (
         <div className='get-in-touch'>
-            <div className='get-in-topic'>Get in touch</div>
+            <div className='get-in-topic'>{title}</div>
         </div>
     );
 }
