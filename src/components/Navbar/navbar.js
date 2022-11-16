@@ -1,21 +1,18 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./navbar.css";
-function Navbar(props) {
+import { IconContext } from "react-icons";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { GrClose } from "react-icons/gr";
+import {HiOutlineChevronLeft} from "react-icons/hi"
+import {Link,useNavigate} from "react-router-dom";
+
+
+function Navbar() {
+  const [click, setClick] = React.useState(false);
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
   const navigate = useNavigate();
 
-  const moveContactUs = () => {
-    navigate("/contact-us");
-  };
-  const moveAboutUs = () => {
-    navigate("/about-us");
-  };
-  const moveHome = () => {
-    navigate("*");
-  };
-
-
-  
   let page = "";
   const getCurrentPage = () => {
     switch (window.location.pathname) {
@@ -25,43 +22,122 @@ function Navbar(props) {
       case "/about-us":
         page = "about-us";
         break;
+
       case "/contact-us":
         page = "contact-us";
         break;
-    
       default:
         page = undefined;
     }
   };
+
   return (
     <>
+      <div>
         {getCurrentPage()}
-    <div className="nav-comp">
-      <div className="logo-cont">
-        <div className="logo-name" onClick={moveHome}>
-          CrypIT
-        </div>
-      </div>
-      <div className="routes">
-        <div className="route-name" onClick={moveHome}>
-          Home
-        </div>
-        <div className="route-name" onClick={moveAboutUs}>
-          About Us
-        </div>
         <div
-          className="route-name"
-          onClick={() => window.open("http://crypit.blog")}
-        >
-          Blog
-        </div>
-        <div className="route-name" onClick={moveContactUs}>
-          Contact Us
-        </div>
-        <div className="join-cta">Join Early Access</div>
+          className={click ? "main-container" : ""}
+          onClick={() => Close()}
+        />
+        <nav className="navbar-nav" onClick={(e) => e.stopPropagation()}>
+       
+            
+              <Link exact to="*" className="nav-logo">
+                <div className="backndlogo">
+                  {page === "staking-farm" ? <>
+                  <Link to="/">
+                   <IconContext.Provider
+                    value={{
+                      size: "1.2em",
+                      color: "white",
+                      style: { marginRight: "10px", marginBottom: "5px" },
+                      className: "global-class-name",
+                    }}
+                  >
+                    <div>
+                      <HiOutlineChevronLeft />
+                    </div>
+                  </IconContext.Provider>
+                  </Link>
+                  </>
+                  :""}
+                  <h3>crypit</h3>
+               {/* <img src={Logo} alt="logo-img" width={175}/> */}
+                </div>
+              </Link>
+
+              <ul className={click ? "nav-menu active" : "nav-menu"}>
+               
+                <li className="nav-item">
+                  <Link
+                  to="/" spy={true} smooth={true}
+                    exact            
+                    activeClassName="active"
+                    className={page===""?"text-highlight":"nav-links"}
+                    onClick={click ? handleClick : null}
+                  >
+                    
+                Home
+                  </Link>
+                </li>
+
+                <li className="nav-item">
+                  <Link
+                    
+                    to="/about-us"
+                    spy={true} smooth={true}
+                    activeClassName="active"
+                    className={page==="about"?"text-highlight":"nav-links"}
+                    onClick={click ? handleClick : null}
+                  >
+                    About
+                  </Link>
+                </li>
+
+                <li className="nav-links " onClick={()=>window.open("http://crypit.blog")}>
+             
+
+                 Blog
+                
+                  
+                </li> 
+
+                <li className="nav-item">
+                  <Link
+                    to="/contact-us"
+                    spy={true} smooth={true}
+                    activeClassName="active"
+                    className={page==="contact"?"text-highlight":"nav-links"}
+                    onClick={click ? handleClick : null}
+                  >
+                  Contact Us
+                  </Link>
+                </li>
+                <div className="join-cta">Join Early Access</div>
+              </ul>
+        
+
+
+
+            <div className="nav-icon" onClick={handleClick}>
+              <IconContext.Provider
+                value={{
+                  size: "1em",
+                  color: "#fff",
+                  style: { marginRight: "10px" },
+                  className: "global-class-name",
+                }}
+              >
+                <div>{click ? <GrClose /> : <GiHamburgerMenu />}</div>
+              </IconContext.Provider>
+              {/* <i className={click ? "fa fa-times" : "fa fa-bars"}></i> */}
+            </div>
+    
+        </nav>
+
+   
       </div>
-    </div>
-    </> 
+    </>
   );
 }
 

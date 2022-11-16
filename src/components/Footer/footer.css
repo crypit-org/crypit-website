@@ -80,7 +80,11 @@ padding-top: 24px;
         padding-right: 50px;
     }
 }
-
+@media screen and (min-width:999px) {
+    .mob-footer-part{
+display: none;
+    }
+}
 @media (min-width:325px) and (max-width:999px) {
     .footer-section{
         padding: 80px 30px 30px;
@@ -93,8 +97,24 @@ padding-top: 24px;
     .contact-us-desc{
         display: none;
     }
-    .footer-part1, .footer-part2{
+    .mob-footer-part{
+        display: flex;
+        justify-content: space-between;
+
+        justify-content: center;
         padding-top: 30px;
-        padding-right: 20px;
+    }
+   .mob-footer-part-sec{
+    margin-right: 108px;
+   }
+    .footer-part{
+        display: none;
+    }
+    .crypit-name{
+        text-align: center;
+    }
+    .footer-reserved{
+        font-size: 11px;
+        text-align: center;
     }
 }

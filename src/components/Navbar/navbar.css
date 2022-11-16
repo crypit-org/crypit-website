@@ -1,7 +1,34 @@
-.nav-comp{
+.text-highlight{
+    color: #EBB044 ;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+   
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.pages {
+    color: #316685;
+    text-align: center;
+    font-size: calc(1.5rem + 2vw);
+    margin-top: 10%;
+}
+
+.text-blue {
+    color: rgb(37, 47, 90);
+}
+
+.navbar-nav {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
     background-color: #16312c;
     padding: 30px 120px 20px;
     position: sticky;
@@ -9,35 +36,153 @@
     z-index: 10000;
 }
 
-.logo-cont{
 
+.main-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.logo-name{
-font-size: 24px;
-font-weight: 600;
-line-height: 36px;
-letter-spacing: 0em;
-text-align: left;
-color:#FFFFFF;
-cursor: pointer;
+.nav-logo {
+    color: #fff !important;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+   
+    font-weight: 700;
 }
-.routes{
+
+.nav-menu {
     display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.nav-links {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;   
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-links-red {
+    color: red !important;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+   
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav-links-active {
+    color: #EBB044;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+    border-bottom: 3px solid transparent;
+   
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.fa-code {
+    margin-left: 1rem;
+}
+
+.nav-item {
+    line-height: 40px;
+    margin-right: 0.9rem;
+}
+
+.nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+}
+
+.nav-item.active {
+    color: #ffdd40;
+    border: 1px solid #ffdd40;
+}
+
+.nav-icon {
+    display: none;
+}
+
+a:hover {
+    color:  #edd052 !important;
+}
+
+ul {
+    /* margin-bottom: 0 !important; */
+}
+
+.chain-dropdown {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 55px;
+    height: 40px;
+    color: #fff;
+}
+
+.backndlogo {
+    display: flex;
+
+    justify-content: center;
     align-items: center;
 }
-.route-name{
-    font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;  
-color: #F1F3F2;
-margin-right: 24px;
-cursor: pointer;
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.route-name:hover{
-    color: #FFC300;
+
+.section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.connect-wallet-btn {
+    padding: 0 15px;
+}
+
+.chain-btn {
+    width: 170px;
+    height: 45px;
+    /* padding: 10px 12px; */
+    border-radius: 25px;
+    border: none;
+    background: #070b28;
+}
+
+.dropdown-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .join-cta{
     padding: 18px 36px;
@@ -53,8 +198,69 @@ color: #111310;
 cursor: pointer;
 }
 
-@media screen and (max-width:1100px) {
-    .nav-comp{
+
+@media screen and (max-width: 950px) {
+    .join-cta{
+        width: 200px;
+        margin: auto;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+        /* border-top: 1px solid #fff; */
+        position: absolute;
+        top: 98px;
+        left: -110%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        
+    }
+   
+    .nav-menu.active {
+        background: #011F1A;
+        left: 0px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+        padding: 30px!important;
+    }
+
+    .nav-item .active {
+        color: red;
+        border: none;
+    }
+
+    .nav-links {
+        padding: 0.5rem;
+        width: 100%;
+        display: table;
+        color:#fff;
+    }
+
+    .nav-icon {
+        display: block;
+        position: absolute;
+      top: 27px;
+        right: 0px;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #ffdd40;
+    }
+
+    .connect-wallet-btn,
+    .info-dot {
         display: none;
     }
+
+    .chain-btn {
+        margin-right: 38px;
+    }
+    .navbar-nav{
+        padding:  20px;
+    }
+
 }
+

@@ -54,5 +54,6 @@ text-align: center;
     .faq-heading{
         width: auto;
         font-size: 32px;
+        text-align: center;
     }
 }

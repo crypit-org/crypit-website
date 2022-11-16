@@ -19,7 +19,7 @@ function HomePage(props) {
           <Home/> 
           <WhatisCrypit/> 
           <Feature/>
-          {/* <WhyCrypit/> */}
+          <WhyCrypit/>
           <HowItWorks/>
           <Download/>
           <Faq/>
