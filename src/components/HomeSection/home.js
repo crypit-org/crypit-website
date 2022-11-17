@@ -9,6 +9,8 @@ import Wallet from "../../assets/img-2.0/wallet-yellow.svg";
 import Learn from "../../assets/img-2.0/learn-yellow.svg";
 import Spend from "../../assets/img-2.0/purse-yellow.svg";
 import Earn from "../../assets/img-2.0/dollar-yellow.svg";
+import Telegram from "../../assets/img-2.0/tele-icon-white.png";
+
 function Home(props) {
   const [email, setEmail] = useState("");
   return (
@@ -32,7 +34,8 @@ function Home(props) {
             <div className="follow-text">Follow Us</div>
             <img src={Twitter} alt="insta-icon" style={{ marginRight: 34 }} />
             <img src={Linkedin} alt="insta-icon" style={{ marginRight: 34 }} />
-            <img src={Insta} alt="insta-icon" style={{ marginRight: 34 }} />
+            <img src={Insta} alt="insta-icon" style={{ marginRight: 32 }} />
+            <img src={Telegram} alt="insta-icon" style={{ marginRight: 34 ,width:20, height:20}} />
           </div>
         </div>
         <img
