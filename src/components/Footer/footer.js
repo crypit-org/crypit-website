@@ -3,7 +3,8 @@ import "./footer.css";
 import Insta from "../../assets/img-2.0/_Instagram.svg";
 import Linkedin from "../../assets/img-2.0/_Linkedin.svg";
 import Twitter from "../../assets/img-2.0/_Twitter.svg";
-
+import Telegram from "../../assets/img-2.0/tele-icon-white.png";
+import { Link } from "react-router-dom";
 function Footer(props) {
   return (
     <div className="footer-section">
@@ -16,27 +17,32 @@ function Footer(props) {
           </div>
           <div className="mob-footer-part">
             <div className="mob-footer-part-sec">
-        <div className="footer-part-title">About Us</div>
-        <div className="footer-part-title">Blogs</div>
-        <div className="footer-part-title">FAQ</div>
-        </div>
-        <div>
-            <div className="footer-part-title">Privacy</div>
-            <div className="footer-part-title">Terms</div>
-            <div className="footer-part-title">Contact Us</div>
+              <div className="footer-part-title">About Us</div>
+              <div className="footer-part-title">Blogs</div>
+              <div className="footer-part-title">FAQ</div>
             </div>
-        </div>
-          <div className="follow-handles">
+            <div>
+              <div className="footer-part-title">Privacy</div>
+              <div className="footer-part-title">Terms</div>
+              <div className="footer-part-title">Contact Us</div>
+            </div>
+          </div>
+          <div className="follow-handles-footer">
             <div className="follow-text">Follow Us</div>
             <img src={Twitter} alt="insta-icon" style={{ marginRight: 34 }} />
             <img src={Linkedin} alt="insta-icon" style={{ marginRight: 34 }} />
             <img src={Insta} alt="insta-icon" style={{ marginRight: 34 }} />
+            <img src={Telegram} alt="insta-icon" style={{ marginRight: 34 }} />
           </div>
         </div>
         <div className="footer-part">
           <div className="footer-part1">
-            <div className="footer-part-title">About Us</div>
-            <div className="footer-part-title">Blogs</div>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+              <div className="footer-part-title">Home</div>{" "}
+            </Link>
+            <Link to="/about-us" style={{ textDecoration: 'none' }}>
+            <div className="footer-part-title">About Us</div></Link>
+            <div className="footer-part-title" onClick={()=>window.open("http://crypit.blog")}>Blogs</div>
           </div>
           <div className="footer-part2">
             <div className="footer-part-title">FAQ</div>
@@ -44,14 +50,14 @@ function Footer(props) {
             <div className="footer-part-title">Terms</div>
           </div>
           <div className="footer-part3">
-            <div className="footer-part-title">Contact Us</div>
+          <Link to="/about-us" style={{ textDecoration: 'none' }}>
+            <div className="footer-part-title" >Contact Us</div></Link>
             <div className="contact-us-desc">
               Lorem Ipsum has been the industry's standard dummy when an unknown
               printer took.
             </div>
           </div>
         </div>
-    
       </div>
       <div className="footer-reserved">
         © 2022 Crypit | Security | Your Privacy | Terms
