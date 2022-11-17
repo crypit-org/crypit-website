@@ -69,13 +69,13 @@ function Navbar() {
               <ul className={click ? "nav-menu active" : "nav-menu"}>
                
                 <li className="nav-item">
-                  <Link
-                  to="/" spy={true} smooth={true}
-                    exact            
-                    activeClassName="active"
-                    className={page===""?"text-highlight":"nav-links"}
-                    onClick={click ? handleClick : null}
-                  >
+                    <Link
+                    to="/" spy={true} smooth={true}
+                      exact            
+                      activeClassName="active"
+                      className={page===""?"text-highlight":"nav-links"}
+                      onClick={click ? handleClick : null}
+                    >
                     
                 Home
                   </Link>
@@ -87,7 +87,7 @@ function Navbar() {
                     to="/about-us"
                     spy={true} smooth={true}
                     activeClassName="active"
-                    className={page==="about"?"text-highlight":"nav-links"}
+                    className={page==="about-us"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
                     About
@@ -107,7 +107,7 @@ function Navbar() {
                     to="/contact-us"
                     spy={true} smooth={true}
                     activeClassName="active"
-                    className={page==="contact"?"text-highlight":"nav-links"}
+                    className={page==="contact-us"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
                   Contact Us
