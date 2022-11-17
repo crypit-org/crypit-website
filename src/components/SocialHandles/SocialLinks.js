@@ -14,22 +14,22 @@ function SocialLinks(props) {
         <div className="social-media-box">
           <img src={Twitter} alt="vector" className="social-icon" />
           <div className="user-name">Twitter</div>
-          <div className="user-id">@crypit</div>
+          <div className="user-id">@just_crypit</div>
         </div>
         <div className="social-media-box">
           <img src={LinkedIn} alt="vector" className="social-icon" />
           <div className="user-name">LinkedIn</div>
-          <div className="user-id">@crypit</div>
+          <div className="user-id">@just_crypit</div>
         </div>
         <div className="social-media-box">
           <img src={Insta} alt="vector" className="social-icon" />
           <div className="user-name">Twitter</div>
-          <div className="user-id">@crypit</div>
+          <div className="user-id">@just_crypit</div>
         </div>
         <div className="social-media-box">
           <img src={Telegram} alt="vector" className="social-icon" />
           <div className="user-name">Telegram</div>
-          <div className="user-id">@crypit</div>
+          <div className="user-id">@just_crypit</div>
         </div>
        
       </div>

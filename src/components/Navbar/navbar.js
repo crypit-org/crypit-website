@@ -33,7 +33,7 @@ function Navbar() {
 
   return (
     <>
-      <div>
+      <div className="nav-sticky-cont">
         {getCurrentPage()}
         <div
           className={click ? "main-container" : ""}
