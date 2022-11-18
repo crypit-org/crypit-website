@@ -90,7 +90,7 @@ function Navbar() {
                     className={page==="about-us"?"text-highlight":"nav-links"}
                     onClick={click ? handleClick : null}
                   >
-                    About
+                    About Us
                   </Link>
                 </li>
 
