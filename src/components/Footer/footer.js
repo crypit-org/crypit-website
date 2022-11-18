@@ -34,7 +34,7 @@ function Footer(props) {
           <div className="follow-handles-footer">
             <div className="follow-text">Follow Us</div>
             <a
-              href="https://twitter.com/just_crypit?t=qfgOiuSf3iAFuuZOjxVRhw&s=09"
+              href="https://twitter.com/just_crypit"
               target="_blank"
             >
               <img
@@ -54,7 +54,7 @@ function Footer(props) {
               />
             </a>
             <a
-              href="https://instagram.com/just_crypit?igshid=YmMyMTA2M2Y="
+              href="https://instagram.com/just_crypit"
               target="_blank"
             >
               <img
@@ -85,12 +85,12 @@ function Footer(props) {
             <Link to="/about-us" style={{ textDecoration: "none" }}>
               <div className="footer-part-title">About Us</div>
             </Link>
-            <div
+            {/* <div
               className="footer-part-title"
               onClick={() => window.open("http://crypit.blog")}
             >
               Blogs
-            </div>
+            </div> */}
           </div>
           <div className="footer-part2">
             <div className="footer-part-title">FAQ</div>

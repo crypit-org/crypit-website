@@ -34,7 +34,7 @@ function Home(props) {
           <div className="follow-handles">
             <div className="follow-text">Follow Us</div>
             <a
-              href="https://twitter.com/just_crypit?t=qfgOiuSf3iAFuuZOjxVRhw&s=09"
+              href="https://twitter.com/just_crypit"
               target="_blank"
             >
               <img
@@ -54,7 +54,7 @@ function Home(props) {
               />
             </a>
             <a
-              href="https://instagram.com/just_crypit?igshid=YmMyMTA2M2Y="
+              href="https://instagram.com/just_crypit"
               target="_blank"
             >
               <img

@@ -1,10 +1,10 @@
 .what-crypit-comp{
-    background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%);
+    background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%),url("../../assets/img-2.0/what-crypit-bg.png");
     padding: 0px 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image: url("../../assets/img-2.0/what-crypit-bg.png");
+    /* background-image: ; */
     background-repeat: no-repeat;
     background-size: cover;
 }

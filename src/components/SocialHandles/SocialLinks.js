@@ -12,7 +12,7 @@ function SocialLinks(props) {
       <div className="feature-sec-underline" />
       <div className="handles">
         <a
-          href="https://twitter.com/just_crypit?t=qfgOiuSf3iAFuuZOjxVRhw&s=09"
+          href="https://twitter.com/just_crypit"
           target="_blank"
           style={{ textDecoration: "none" }}
         >
@@ -34,7 +34,7 @@ function SocialLinks(props) {
           </div>
         </a>
         <a
-          href="https://instagram.com/just_crypit?igshid=YmMyMTA2M2Y="
+          href="https://instagram.com/just_crypit"
           target="_blank"
           style={{ textDecoration: "none" }}
         >
