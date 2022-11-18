@@ -17,32 +17,80 @@ function Footer(props) {
           </div>
           <div className="mob-footer-part">
             <div className="mob-footer-part-sec">
-              <div className="footer-part-title">About Us</div>
-              <div className="footer-part-title">Blogs</div>
+            <Link to="*">
+              <div className="footer-part-title" onClick={  window.scrollTo(0, 0)}>Home</div></Link>
+              <Link to="/about-us">
+              <div className="footer-part-title">About Us</div> </Link>
+              {/* <div className="footer-part-title">Blogs</div> */}
               <div className="footer-part-title">FAQ</div>
             </div>
             <div>
               <div className="footer-part-title">Privacy</div>
               <div className="footer-part-title">Terms</div>
-              <div className="footer-part-title">Contact Us</div>
+              <Link to="/about-us">
+              <div className="footer-part-title">Contact Us</div></Link>
             </div>
           </div>
           <div className="follow-handles-footer">
             <div className="follow-text">Follow Us</div>
-            <img src={Twitter} alt="insta-icon" style={{ marginRight: 34 }} />
-            <img src={Linkedin} alt="insta-icon" style={{ marginRight: 34 }} />
-            <img src={Insta} alt="insta-icon" style={{ marginRight: 34 }} />
-            <img src={Telegram} alt="insta-icon" style={{ marginRight: 34 }} />
+            <a
+              href="https://twitter.com/just_crypit?t=qfgOiuSf3iAFuuZOjxVRhw&s=09"
+              target="_blank"
+            >
+              <img
+                src={Twitter}
+                alt="insta-icon"
+                style={{ marginRight: 34, cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/admin-crypit-11b437255"
+              target="_blank"
+            >
+              <img
+                src={Linkedin}
+                alt="insta-icon"
+                style={{ marginRight: 34, cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://instagram.com/just_crypit?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              <img
+                src={Insta}
+                alt="insta-icon"
+                style={{ marginRight: 32, cursor: "pointer" }}
+              />
+            </a>
+            <a>
+              <img
+                src={Telegram}
+                alt="insta-icon"
+                style={{
+                  marginRight: 34,
+                  width: 20,
+                  height: 20,
+                  cursor: "pointer",
+                }}
+              />
+            </a>
           </div>
         </div>
         <div className="footer-part">
           <div className="footer-part1">
-            <Link to="/" style={{ textDecoration: 'none' }}>
+            <Link to="/" style={{ textDecoration: "none" }}>
               <div className="footer-part-title">Home</div>{" "}
             </Link>
-            <Link to="/about-us" style={{ textDecoration: 'none' }}>
-            <div className="footer-part-title">About Us</div></Link>
-            <div className="footer-part-title" onClick={()=>window.open("http://crypit.blog")}>Blogs</div>
+            <Link to="/about-us" style={{ textDecoration: "none" }}>
+              <div className="footer-part-title">About Us</div>
+            </Link>
+            <div
+              className="footer-part-title"
+              onClick={() => window.open("http://crypit.blog")}
+            >
+              Blogs
+            </div>
           </div>
           <div className="footer-part2">
             <div className="footer-part-title">FAQ</div>
@@ -50,8 +98,9 @@ function Footer(props) {
             <div className="footer-part-title">Terms</div>
           </div>
           <div className="footer-part3">
-          <Link to="/about-us" style={{ textDecoration: 'none' }}>
-            <div className="footer-part-title" >Contact Us</div></Link>
+            <Link to="/about-us" style={{ textDecoration: "none" }}>
+              <div className="footer-part-title">Contact Us</div>
+            </Link>
             <div className="contact-us-desc">
               Lorem Ipsum has been the industry's standard dummy when an unknown
               printer took.

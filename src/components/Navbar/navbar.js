@@ -61,7 +61,7 @@ function Navbar() {
                   </Link>
                   </>
                   :""}
-                  <h3>crypit</h3>
+                  <h3 className="title-logo">CrypIT</h3>
                {/* <img src={Logo} alt="logo-img" width={175}/> */}
                 </div>
               </Link>
@@ -94,13 +94,13 @@ function Navbar() {
                   </Link>
                 </li>
 
-                <li className="nav-links " onClick={()=>window.open("http://crypit.blog")}>
+                {/* <li className="nav-links " onClick={()=>window.open("http://crypit.blog")}>
              
 
                  Blog
                 
                   
-                </li> 
+                </li>  */}
 
                 <li className="nav-item">
                   <Link

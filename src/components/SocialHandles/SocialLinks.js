@@ -11,27 +11,44 @@ function SocialLinks(props) {
       <div className="feature-sec-heading">Let’s Connect</div>
       <div className="feature-sec-underline" />
       <div className="handles">
-        <div className="social-media-box">
-          <img src={Twitter} alt="vector" className="social-icon" />
-          <div className="user-name">Twitter</div>
-          <div className="user-id">@just_crypit</div>
-        </div>
-        <div className="social-media-box">
-          <img src={LinkedIn} alt="vector" className="social-icon" />
-          <div className="user-name">LinkedIn</div>
-          <div className="user-id">@just_crypit</div>
-        </div>
-        <div className="social-media-box">
-          <img src={Insta} alt="vector" className="social-icon" />
-          <div className="user-name">Twitter</div>
-          <div className="user-id">@just_crypit</div>
-        </div>
+        <a
+          href="https://twitter.com/just_crypit?t=qfgOiuSf3iAFuuZOjxVRhw&s=09"
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="social-media-box">
+            <img src={Twitter} alt="vector" className="social-icon" />
+            <div className="user-name">Twitter</div>
+            <div className="user-id">@just_crypit</div>
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/admin-crypit-11b437255"
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="social-media-box">
+            <img src={LinkedIn} alt="vector" className="social-icon" />
+            <div className="user-name">LinkedIn</div>
+            <div className="user-id">@just_crypit</div>
+          </div>
+        </a>
+        <a
+          href="https://instagram.com/just_crypit?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <div className="social-media-box">
+            <img src={Insta} alt="vector" className="social-icon" />
+            <div className="user-name">Instagram</div>
+            <div className="user-id">@just_crypit</div>
+          </div>
+        </a>
         <div className="social-media-box">
           <img src={Telegram} alt="vector" className="social-icon" />
           <div className="user-name">Telegram</div>
           <div className="user-id">@just_crypit</div>
         </div>
-       
       </div>
     </div>
   );

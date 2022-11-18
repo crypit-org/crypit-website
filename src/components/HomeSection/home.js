@@ -10,6 +10,7 @@ import Learn from "../../assets/img-2.0/learn-yellow.svg";
 import Spend from "../../assets/img-2.0/purse-yellow.svg";
 import Earn from "../../assets/img-2.0/dollar-yellow.svg";
 import Telegram from "../../assets/img-2.0/tele-icon-white.png";
+import { Link } from "react-router-dom";
 
 function Home(props) {
   const [email, setEmail] = useState("");
@@ -32,10 +33,48 @@ function Home(props) {
           </div>
           <div className="follow-handles">
             <div className="follow-text">Follow Us</div>
-            <img src={Twitter} alt="insta-icon" style={{ marginRight: 34 }} />
-            <img src={Linkedin} alt="insta-icon" style={{ marginRight: 34 }} />
-            <img src={Insta} alt="insta-icon" style={{ marginRight: 32 }} />
-            <img src={Telegram} alt="insta-icon" style={{ marginRight: 34 ,width:20, height:20}} />
+            <a
+              href="https://twitter.com/just_crypit?t=qfgOiuSf3iAFuuZOjxVRhw&s=09"
+              target="_blank"
+            >
+              <img
+                src={Twitter}
+                alt="insta-icon"
+                style={{ marginRight: 34, cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/admin-crypit-11b437255"
+              target="_blank"
+            >
+              <img
+                src={Linkedin}
+                alt="insta-icon"
+                style={{ marginRight: 34, cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://instagram.com/just_crypit?igshid=YmMyMTA2M2Y="
+              target="_blank"
+            >
+              <img
+                src={Insta}
+                alt="insta-icon"
+                style={{ marginRight: 32, cursor: "pointer" }}
+              />
+            </a>
+            <a>
+              <img
+                src={Telegram}
+                alt="insta-icon"
+                style={{
+                  marginRight: 34,
+                  width: 20,
+                  height: 20,
+                  cursor: "pointer",
+                }}
+              />
+            </a>
           </div>
         </div>
         <img
