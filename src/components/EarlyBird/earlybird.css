@@ -1,5 +1,5 @@
 .early-bird-cont{
-   
+   position: relative;
     background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%);
     padding: 72px 190px;
 }
@@ -17,6 +17,72 @@ color: #011F1A;
     margin: 25px 0px 15px ;
     width: 375px;
 
+}
+.Block1{
+    width: 86px;
+    height: 297px;
+    position: absolute;
+    top: 75px;
+    right:300px;
+}
+.Block2{
+    width: 86px;
+    height: 297px;
+    position: absolute;
+    top: 215px;
+right:450px;
+}
+.JustCrypit{
+    position: absolute;
+    top: 450px;
+    right: 100px;
+    width: 300px;
+}
+@media (min-width:325px) and (max-width:949px){
+    .Block1{
+        width: 86px;
+        height: 297px;
+        position: absolute;
+        top: 75px;
+        right:150px;
+        opacity: 0.2;
+    }
+    .Block2{
+        opacity: 0.2;
+        width: 86px;
+        height: 297px;
+        position: absolute;
+        top: 215px;
+    right:250px;
+    }
+    .JustCrypit{
+        opacity: 0.4;
+        top: 450px;
+        right:40px;
+        width: 200px;
+    }
+}
+@media (min-width:950px) and (max-width:1100px){
+    .Block1{
+        width: 86px;
+        height: 297px;
+        position: absolute;
+        top: 75px;
+        right:150px;
+    }
+    .Block2{
+        width: 86px;
+        height: 297px;
+        position: absolute;
+        top: 215px;
+    right:250px;
+    }
+    .JustCrypit{
+        position: absolute;
+        top: 450px;
+        right:40px;
+        width: 200px;
+    }
 }
 @media (min-width:325px) and (max-width:999px) {
     .early-bird-cont{
