@@ -28,8 +28,10 @@ been the industry's
 standard dummy
 when an unknown</div>
 <div className='phone-email'>
-    <div><div className='phone-head'>Phone</div>
-    <div className='phone-number'>98444400011</div></div>
+    {/* <div>
+        <div className='phone-head'>Phone</div>
+    <div className='phone-number'>98444400011</div>
+    </div> */}
     <div><div className='phone-head'>Email</div>
     <div className='phone-number'>support@crypit.app</div></div>
 
