@@ -23,7 +23,7 @@ function SocialLinks(props) {
           </div>
         </a>
         <a
-          href="https://www.linkedin.com/in/admin-crypit-11b437255"
+          href="https://www.linkedin.com/company/crypit/"
           target="_blank"
           style={{ textDecoration: "none" }}
         >

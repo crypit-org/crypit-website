@@ -44,7 +44,7 @@ function Home(props) {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/admin-crypit-11b437255"
+              href="https://www.linkedin.com/company/crypit/"
               target="_blank"
             >
               <img
