@@ -58,6 +58,9 @@ border: 0;
    
 }
 @media (min-width:350px) and (max-width:1024px) {
+    .join-cta{
+        font-size: 14px!important;
+    }
   
     .ant-modal{
         max-width: calc(70vw - 32px) !important;

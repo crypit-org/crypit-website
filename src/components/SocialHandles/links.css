@@ -42,11 +42,18 @@ text-align: center;
 color: #FFFFFF;
 }
 @media (min-width:325px) and (max-width:999px) {
+    img{
+        width: 48px;
+        height: 48px;
+    }
     .faq-sec {
         padding: 30px;
     }
     .handles{
         margin: 40px auto 10px;
+    }
+    .icon-bg{
+        padding: 25px;
     }
     .social-media-box{
         margin-bottom: 15px;

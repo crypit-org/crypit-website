@@ -186,7 +186,7 @@ opacity: 0.5;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 30px 25px 0; 
+        padding: 75px 25px 30px; 
     }
     .just-crypit{
         font-size: 52px;
@@ -202,7 +202,8 @@ opacity: 0.5;
     }
     .hero-join-early-button{
         width: auto;
-        padding: 21px 5px;
+        padding: 21px 10px;
+        font-size: 13px;
     }
     .follow-handles{
         margin-top: 50px;

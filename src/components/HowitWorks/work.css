@@ -152,6 +152,7 @@ padding: 12px 30px 12px 57px;
 @media (min-width:325px) and (max-width:999px) {
     .how-it-works{
         padding: 20px 25px 10px;
+        height: 750px;
     }
     .feature-sec-heading{
         font-size: 32px;
@@ -192,7 +193,7 @@ padding: 12px 30px 12px 57px;
     }
     .arrow2 {
         position: absolute;
-        bottom: 17px;
+        top: 658px;
         left: 300px;
     }
     .ecllipse1,.ecllipse2{

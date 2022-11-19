@@ -59,7 +59,7 @@ function Accessbtn({ title }) {
   };
 
   return (
-    <div style={{width:300}}>
+    <div >
       <button
         type="primary"
         className="join-cta"

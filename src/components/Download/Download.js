@@ -25,6 +25,7 @@ function Download(props) {
                 {/* <div className='join-cta'>Join Early Access</div> */}
 
                 <Accessbtn/>
+            
                 </div>
             </div>
         </div>
