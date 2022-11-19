@@ -11,9 +11,51 @@ import Spend from "../../assets/img-2.0/purse-yellow.svg";
 import Earn from "../../assets/img-2.0/dollar-yellow.svg";
 import Telegram from "../../assets/img-2.0/tele-icon-white.png";
 import { Link } from "react-router-dom";
+import emailjs from "@emailjs/browser";
+import { NotificationManager } from "react-notifications";
+import { Form, Button, Modal } from "antd";
 
 function Home(props) {
   const [email, setEmail] = useState("");
+  const [mailId, setMailId] = useState("");
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+
+  const joinEarly = async () => {
+    // User details goes here
+    var templateParams = {
+      from_name: "user",
+      email: mailId,
+    };
+    try {
+      if (mailId.trim() === "") {
+        return;
+      }
+      let response = await emailjs
+        .send(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          templateParams,
+          process.env.REACT_APP_PUBLIC_KEY
+        );
+
+      if (response.status === 200) {
+        setIsModalVisible(false);
+        Modal.success({
+          title: 'Awesome',
+          content: "Check you email for more details, we'll see you soon!",
+        });
+
+      }
+    } catch (err) {
+      NotificationManager.warning(
+        "Unable to register, Please try again later!",
+        "Warning",
+        3000
+      );
+      console.error("Error on Get Early Access: EMAILJS.");
+    }
+  };
   return (
     <div className="home-comp">
       <div className="hero-sec">
@@ -27,9 +69,9 @@ function Home(props) {
             <input
               placeholder="Enter you email"
               className="hero-email-input"
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => setMailId(e.target.value)}
             />
-            <button className="hero-join-early-button">Join Ealy Access</button>
+            <button className="hero-join-early-button" onClick={joinEarly}>Join Ealy Access</button>
           </div>
           <div className="follow-handles">
             <div className="follow-text">Follow Us</div>

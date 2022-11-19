@@ -70,6 +70,7 @@ function Accessbtn({ title }) {
     Join Early Access   
       </button>
       <Modal
+      centered
         visible={isModalVisible}
         onOk={joinEarly}
         okText="Get Access"
