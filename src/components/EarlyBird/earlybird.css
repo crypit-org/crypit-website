@@ -11,6 +11,28 @@ font-size: 56px;
 line-height: 150%;
 color: #011F1A;
 }
+.input-email-eb{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 0;
+    outline-style: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+.input-email-eb::placeholder {
+    color: #000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+}
 .form-early-access{
     display: flex;
     flex-direction: column;

@@ -27,7 +27,7 @@
 }
 
 .navbar-nav {
-    height: 60px;
+    /* height: 60px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@
     top: 0;
     z-index: 20;
     background-color: #16312c;
-    padding: 20px 120px 20px;
+    padding: 20px 120px 0px;
 
 }
 
@@ -68,6 +68,7 @@
     list-style: none;
     text-align: center;
     margin-right: 2rem;
+    align-items: center;
 }
 
 .nav-links {

@@ -1,6 +1,9 @@
 .story-sec-cont{
-    background: #011F1A;
+    background-color:#011F1A ;
     padding: 140px 120px 10px;
+    /* background: url("../../assets/img-2.0/vectors.png");
+    background-repeat: no-repeat;
+    background-position: top right; */
 }
 .story-sec{
     display: flex;

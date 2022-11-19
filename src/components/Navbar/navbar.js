@@ -5,6 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import {HiOutlineChevronLeft} from "react-icons/hi"
 import {Link,useNavigate} from "react-router-dom";
+import Accessbtn from "../JoinAccessBtn/JoinBtn";
 
 
 function Navbar() {
@@ -61,7 +62,7 @@ function Navbar() {
                   </Link>
                   </>
                   :""}
-                  <h3 className="title-logo">CrypIT</h3>
+                  <div className="title-logo">CrypIT</div>
                {/* <img src={Logo} alt="logo-img" width={175}/> */}
                 </div>
               </Link>
@@ -113,7 +114,8 @@ function Navbar() {
                   Contact Us
                   </Link>
                 </li>
-                <div className="join-cta">Join Early Access</div>
+                {/* <div className="join-cta">Join Early Access</div> */}
+                <Accessbtn/>
               </ul>
         
 

@@ -4,7 +4,7 @@
     padding: 150px 120px 100px;
     background-color: #011F1A;
     position: relative;
-    height: 750px;
+    height: 950px;
 }
 .step1{
 position: absolute;
@@ -39,7 +39,7 @@ font-size: 24px;
 line-height: 150%;
 color: #FFFFFF;
 padding: 0 24px;
-width: 293px;
+width: 350px;
 }
 
 .step-desc{
@@ -49,8 +49,8 @@ font-weight: 500;
 font-size: 16px;
 line-height: 150%;
 color: #A6A6A6;
-width: 279px;
-padding: 12px 46px;
+width: 380px;
+padding: 12px 30px 12px 57px;
 }
 
 .line1{

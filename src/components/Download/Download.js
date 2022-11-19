@@ -1,6 +1,7 @@
 import React from 'react';
 import "./download.css"
 import MobileVector from "../../assets/img-2.0/mob-overview.svg"
+import Accessbtn from '../JoinAccessBtn/JoinBtn';
 
 function Download(props) {
     return (
@@ -21,7 +22,9 @@ function Download(props) {
                     <div className='description-detail'>
                     Download the app today to experience the world of crypto at your fingertips!
                         </div>
-                <div className='join-cta'>Join Early Access</div>
+                {/* <div className='join-cta'>Join Early Access</div> */}
+
+                <Accessbtn/>
                 </div>
             </div>
         </div>

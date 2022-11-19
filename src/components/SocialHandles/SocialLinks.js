@@ -5,6 +5,9 @@ import LinkedIn from "../../assets/img-2.0/linkedin.png";
 import Insta from "../../assets/img-2.0/insta.png";
 import Telegram from "../../assets/img-2.0/tele-icon.png";
 
+import Insta1 from "../../assets/img-2.0/_Instagram.svg";
+import Linkedin1 from "../../assets/img-2.0/_Linkedin.svg";
+import Twitter1 from "../../assets/img-2.0/_Twitter.svg";
 function SocialLinks(props) {
   return (
     <div className="faq-sec">
@@ -17,7 +20,8 @@ function SocialLinks(props) {
           style={{ textDecoration: "none" }}
         >
           <div className="social-media-box">
-            <img src={Twitter} alt="vector" className="social-icon" />
+<div className="icon-bg">
+            <img src={Twitter} alt="vector" className="social-links-icon"/></div>
             <div className="user-name">Twitter</div>
             <div className="user-id">@just_crypit</div>
           </div>
@@ -28,7 +32,8 @@ function SocialLinks(props) {
           style={{ textDecoration: "none" }}
         >
           <div className="social-media-box">
-            <img src={LinkedIn} alt="vector" className="social-icon" />
+          <div className="icon-bg">
+            <img src={LinkedIn} alt="vector"  className="social-links-icon"/></div>
             <div className="user-name">LinkedIn</div>
             <div className="user-id">@just_crypit</div>
           </div>
@@ -39,13 +44,15 @@ function SocialLinks(props) {
           style={{ textDecoration: "none" }}
         >
           <div className="social-media-box">
-            <img src={Insta} alt="vector" className="social-icon" />
+          <div className="icon-bg">
+            <img src={Insta} alt="vector"  className="social-links-icon"/></div>
             <div className="user-name">Instagram</div>
             <div className="user-id">@just_crypit</div>
           </div>
         </a>
         <div className="social-media-box">
-          <img src={Telegram} alt="vector" className="social-icon" />
+        <div className="icon-bg">
+          <img src={Telegram} alt="vector" className="social-links-icon"/></div>
           <div className="user-name">Telegram</div>
           <div className="user-id">@just_crypit</div>
         </div>
