@@ -147,8 +147,10 @@ function Contact(props) {
             margin: "25px 0px 15px",
           }}
         >
+          <div style={{fontSize:18, fontWeight:600,marginBottom:"8px"}}>CrypIT,</div>
           <div className="addr-text">
-            Lorem Ipsum has been the industry's standard dummy when an unknown
+           
+          Singapore, SG.
           </div>
           <div className="phone-email">
             {/* <div>

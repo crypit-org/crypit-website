@@ -12,8 +12,7 @@ function Footer(props) {
         <div>
           <div className="crypit-name">CrypIT</div>
           <div className="footer-description">
-            An unified app to make your digital asset journey much easier and
-            seamless than ever.
+          CrypIT is the Crypto Super App for the decentralized future.<br/> Just CrypIT !
           </div>
           <div className="mob-footer-part">
             <div className="mob-footer-part-sec">
@@ -101,9 +100,12 @@ function Footer(props) {
             <Link to="/about-us" style={{ textDecoration: "none" }}>
               <div className="footer-part-title">Contact Us</div>
             </Link>
+            <div style={{fontSize:14,marginBottom:"5px",color:"#fff"}}>CrypIT,</div>
             <div className="contact-us-desc">
-              Lorem Ipsum has been the industry's standard dummy when an unknown
-              printer took.
+           Singapore, SG.
+            </div>
+            <div className="contact-us-desc">
+          support@crypit.app
             </div>
           </div>
         </div>

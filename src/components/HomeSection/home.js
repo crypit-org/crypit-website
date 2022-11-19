@@ -45,8 +45,9 @@ function Home(props) {
           title: 'Awesome',
           content: "Check you email for more details, we'll see you soon!",
         });
-
+   
       }
+     
     } catch (err) {
       NotificationManager.warning(
         "Unable to register, Please try again later!",
@@ -71,7 +72,7 @@ function Home(props) {
               className="hero-email-input"
               onChange={(e) => setMailId(e.target.value)}
             />
-            <button className="hero-join-early-button" onClick={joinEarly}>Join Ealy Access</button>
+            <button className="hero-join-early-button" onClick={joinEarly} style={{cursor:"pointer"}}>Join Ealy Access</button>
           </div>
           <div className="follow-handles">
             <div className="follow-text">Follow Us</div>
