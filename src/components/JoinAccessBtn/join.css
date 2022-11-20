@@ -57,6 +57,17 @@ border: 0;
     border-color: transparent;
    
 }
+@media (min-width:350px) and (max-width:950px){
+    .ant-modal-content{
+        width: 130% !important;    
+    }
+    .ant-modal-body {
+        padding: 10px!important;
+    }
+    .ant-modal-centered .ant-modal{
+        left: -48px!important;
+    }
+}
 @media (min-width:350px) and (max-width:1024px) {
     .join-cta{
         font-size: 14px!important;

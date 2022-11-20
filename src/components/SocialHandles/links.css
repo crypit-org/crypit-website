@@ -42,7 +42,7 @@ text-align: center;
 color: #FFFFFF;
 }
 @media (min-width:325px) and (max-width:999px) {
-    img{
+    .social-links-icon{
         width: 48px;
         height: 48px;
     }
@@ -54,6 +54,7 @@ color: #FFFFFF;
     }
     .icon-bg{
         padding: 25px;
+        
     }
     .social-media-box{
         margin-bottom: 15px;

@@ -191,6 +191,7 @@ opacity: 0.5;
     .just-crypit{
         font-size: 52px;
         text-align: center;
+        margin-bottom: 30px;
     }
     .title-text{
         font-size: 18px;
@@ -201,7 +202,7 @@ opacity: 0.5;
         width: 343px;
     }
     .hero-join-early-button{
-        width: auto;
+        width: 160px;
         padding: 21px 10px;
         font-size: 13px;
     }

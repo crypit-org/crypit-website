@@ -39,6 +39,7 @@
     color: #000;
     font-weight: 500;
     font-size: 16px;
+    width: 100%!important;
 }
 .textarea-text{
     font-family: 'Montserrat';
@@ -136,6 +137,7 @@ color: #111310;
     }
 }
 @media (min-width:325px) and (max-width:999px) {
+
     .contact-section{
         padding:30px 25px;
         display: flex;

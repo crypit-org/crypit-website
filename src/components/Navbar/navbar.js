@@ -115,13 +115,17 @@ function Navbar() {
                   </Link>
                 </li>
                 {/* <div className="join-cta">Join Early Access</div> */}
-                <Accessbtn/>
+                <div className="jea-btn">
+                <Accessbtn/></div>
               </ul>
         
 
 
-
+            <div className="mob-view-cta" >
+              <div className="mob-join-cta">
+              <Accessbtn/></div>
             <div className="nav-icon" onClick={handleClick}>
+            
               <IconContext.Provider
                 value={{
                   size: "1em",
@@ -134,7 +138,7 @@ function Navbar() {
               </IconContext.Provider>
               {/* <i className={click ? "fa fa-times" : "fa fa-bars"}></i> */}
             </div>
-    
+            </div>
         </nav>
 
    
