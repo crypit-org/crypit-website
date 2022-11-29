@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { NotificationManager } from "react-notifications";
 import { Form, Button, Modal } from "antd";
+import FadeIn from 'react-fade-in';
 
 function Home(props) {
   const [email, setEmail] = useState("");
@@ -58,7 +59,9 @@ function Home(props) {
     }
   };
   return (
+
     <div className="home-comp">
+   
       <div className="hero-sec">
         <div className="hero-right-container">
           <h1 className="just-crypit">Just CrypIT</h1>
@@ -127,7 +130,6 @@ function Home(props) {
           title="Crypto Super App"
         />
       </div>
-
       <div className="hero-card-section">
         <div className="single-card">
           <img src={Wallet} alt="icon-hodl" className="card-img" />
@@ -174,6 +176,7 @@ function Home(props) {
         </div>
       </div>
     </div>
+    
   );
 }
 

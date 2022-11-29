@@ -5,12 +5,14 @@ import Linkedin from "../../assets/img-2.0/_Linkedin.svg";
 import Twitter from "../../assets/img-2.0/_Twitter.svg";
 import Telegram from "../../assets/img-2.0/tele-icon-white.png";
 import { Link } from "react-router-dom";
+import Logo from "../../assets/img-2.0/Logo-white.png"
+
 function Footer(props) {
   return (
     <div className="footer-section">
       <div className="footer-detail">
         <div>
-          <div className="crypit-name">CrypIT</div>
+        <img src={Logo} alt="logo-img" className="logo-img"/>
           <div className="footer-description">
           CrypIT is the Crypto Super App for the decentralized future.<br/> Just CrypIT !
           </div>

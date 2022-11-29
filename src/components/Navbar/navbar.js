@@ -6,6 +6,7 @@ import { GrClose } from "react-icons/gr";
 import {HiOutlineChevronLeft} from "react-icons/hi"
 import {Link,useNavigate} from "react-router-dom";
 import Accessbtn from "../JoinAccessBtn/JoinBtn";
+import Logo from "../../assets/img-2.0/Logo-white.png"
 
 
 function Navbar() {
@@ -62,8 +63,8 @@ function Navbar() {
                   </Link>
                   </>
                   :""}
-                  <div className="title-logo">CrypIT</div>
-               {/* <img src={Logo} alt="logo-img" width={175}/> */}
+                  {/* <div className="title-logo">CrypIT</div> */}
+               <img src={Logo} alt="logo-img" className="logo-img"/>
                 </div>
               </Link>
 

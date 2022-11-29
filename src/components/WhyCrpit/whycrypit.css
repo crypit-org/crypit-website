@@ -5,8 +5,9 @@ padding: 0 120px ;
 background-color: #011F1A; position: relative;
 }
 
-.why-crypit-img{
-   
+.logo-head-why{
+   width: 30px;
+   height: 30px;
 }
 
 .why-crypit-container{
@@ -38,7 +39,7 @@ line-height: 150%;
 /* or 27px */
 width: 275px;
 color: #414240;
-padding: 12px 16px;
+padding: 12px 16px 12px 8px;
 margin: 5px;
 }
 

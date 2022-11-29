@@ -29,7 +29,7 @@ function Feature(props) {
             <div className='feature-cont'>
                 <div className='cont-1'>
 
-                    <Fade left>
+          
                         <div className='detail1'>
                             <h1 className='detail-head'>Crypto &#60; &#62; Fiat</h1>
 
@@ -38,12 +38,12 @@ function Feature(props) {
                                 <li>CrypIT makes your Crypto management and Crypto &#60; &#62; Fiat transfers easy, flexible &amp; more secured</li>
                             </ul>
                         </div>
-                    </Fade>
+               
                     <img src={FeatureImg1} alt="img1" width={390} />
                 </div>
                 <div className='cont-2'>
                     <img src={FeatureImg2} alt="img1" width={350} height={305} />
-                    <Fade right>
+               
                         <div className='detail2'>
                             <h1 className='detail-head'>Flexible </h1>
 
@@ -54,11 +54,11 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                         </div>
-                    </Fade>
+              
 
                 </div>
                 <div className='cont-1'>
-                    <Fade left>
+              
                         <div className='detail1'>
                             <h1 className='detail-head'>Super-Easy</h1>
                             <ul className='detail-list'>
@@ -68,12 +68,12 @@ function Feature(props) {
                                 <li>No more confusion with all crypto buzzwords &amp; complexity</li>
                             </ul>
                         </div>
-                    </Fade>
+           
                     <img src={FeatureImg3} alt="img1" width={400} />
                 </div>
                 <div className='cont-2'>
                     <img src={MarketLearnImg} alt="img1" width={400} />
-                    <Fade right>
+                
                         <div className='detail2'>
                             <h1 className='detail-head'>Learn</h1>
                             <ul className='detail-list'>
@@ -84,11 +84,11 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                         </div>
-                    </Fade>
+                
 
                 </div>
                 <div className='cont-1'>
-                    <Fade right>
+               
                         <div className='detail2'>
                             <h1 className='detail-head'>Earn</h1>
                             <ul className='detail-list'>
@@ -98,12 +98,12 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                         </div>
-                    </Fade>
+            
                     <img src={FeatureImg4} alt="img1" width={450} />
                 </div>
                 <div className='cont-2'>
                     <img src={FeatureImg5} alt="img1" width={450} />
-                    <Fade right>
+                   
                         <div className='detail1'>
                             <h1 className='detail-head'>Cooking more for you... </h1>
 
@@ -112,7 +112,7 @@ function Feature(props) {
                             </ul>
                             <p className='detail-para'> </p>
                         </div>
-                    </Fade>
+               
                 </div>
             </div>
 

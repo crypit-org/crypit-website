@@ -33,7 +33,7 @@
     /* height: 60px; */
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     font-size: 1.2rem;
     position: sticky;
     top: 0;
@@ -43,7 +43,9 @@
 
 }
 
-
+.logo-img{
+    width: 175px;
+}
 .main-container {
     /* position: absolute; */
     /* top: 0;
