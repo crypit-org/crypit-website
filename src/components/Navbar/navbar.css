@@ -224,6 +224,9 @@ ul {
 }
 
 @media screen and (max-width: 950px) {
+    .logo-img{
+width:120px!important;
+    }
     .join-cta {
         margin-right: 40px;
         padding: 10px 15px !important;
@@ -279,7 +282,7 @@ ul {
         display: block;
         position: absolute;
         top: -7px;
-        right: -30px;
+        right: -35px;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
@@ -296,7 +299,7 @@ ul {
     }
 
     .navbar-nav {
-        padding: 20px;
+        padding: 15px;
     }
 
 }

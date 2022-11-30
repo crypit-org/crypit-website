@@ -200,6 +200,7 @@ opacity: 0.5;
     }
     .join-early-combo{
         width: 343px;
+        margin:30px auto 10px;
     }
     .hero-join-early-button{
         width: 160px;
@@ -220,8 +221,8 @@ opacity: 0.5;
         padding: 0 25px 56px;
     }
     .single-card{
-        height: 200px;
-        padding: 0 10px;
+        height: auto!important;
+        padding: 15px 10px;
     }
 }
 @media (min-width:1100px) and (max-width:1199px) {
