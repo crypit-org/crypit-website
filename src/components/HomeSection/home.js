@@ -10,11 +10,9 @@ import Learn from "../../assets/img-2.0/learn-yellow.svg";
 import Spend from "../../assets/img-2.0/purse-yellow.svg";
 import Earn from "../../assets/img-2.0/dollar-yellow.svg";
 import Telegram from "../../assets/img-2.0/tele-icon-white.png";
-import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { NotificationManager } from "react-notifications";
 import { Form, Button, Modal } from "antd";
-import FadeIn from 'react-fade-in';
 
 function Home(props) {
   const [email, setEmail] = useState("");

@@ -1,7 +1,6 @@
 import React from "react";
 import "./crypit.css";
 import PhoneImg from "../../assets/img-2.0/what-crypit.svg";
-import FadeIn from "react-fade-in";
 
 function WhatisCrypit(props) {
   return (
