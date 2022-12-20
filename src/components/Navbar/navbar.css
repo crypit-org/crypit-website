@@ -303,3 +303,8 @@ width:120px!important;
     }
 
 }
+@media (min-width:1000px) and (max-width:1100px) {
+    .navbar-nav{
+        padding: 20px 80px 0px;
+    }
+}

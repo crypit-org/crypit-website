@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import HeroMainImg from "../../assets/img-2.0/hero-img.svg";
+import HeroMainImg from "../../assets/img-2.0/LandingImage.png";
 import { useState } from "react";
 import Insta from "../../assets/img-2.0/_Instagram.svg";
 import Linkedin from "../../assets/img-2.0/_Linkedin.svg";

@@ -8,11 +8,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0 120px  56px;
+    padding:50px 120px 56px;
 }
 
 .hero-main-img {
     width: 615px;
+    height: 580px;
     /* height: 491.14px; */
     /* margin: auto; */
 }
@@ -161,7 +162,7 @@ opacity: 0.5;
 
 @media (min-width:1000px) and (max-width:1099px) {
     .hero-sec  {
-        padding: 0 0px 56px 50px;
+        padding: 50px 26px 56px 50px;
     }
     .hero-card-section{
         padding: 0 50px 56px ;
@@ -173,6 +174,7 @@ opacity: 0.5;
         font-size: 20px;
     }
     .hero-main-img{
+        height: 500px!important;
         width: 515px;
     }
     .single-card{
@@ -212,7 +214,9 @@ opacity: 0.5;
         justify-content: center;
     }
     .hero-main-img {
-        width: 350px;
+        width: 370px;
+    margin-top: 60px;
+    height: 370px!important;
     }
     .hero-email-input{
         width: auto;
@@ -227,10 +231,11 @@ opacity: 0.5;
 }
 @media (min-width:1100px) and (max-width:1199px) {
     .hero-sec {
-        padding: 0 0px 56px 50px;
+        padding: 50px 25px 56px 50px;
     }
     .hero-main-img{
         width: 515px;
+        height: 540px!important;
     }
     .hero-card-section{
         padding: 0 50px 56px ;
@@ -250,7 +255,7 @@ justify-content: center;
 }
 @media (min-width:1200px) and (max-width:1300px) {
     .hero-sec  {
-        padding: 0 0px 56px 80px;
+        padding: 50px 25px 56px 80px;
     }
     .hero-card-section{
         padding: 0 50px 56px ;
@@ -264,7 +269,7 @@ justify-content: center;
 }
 @media (min-width:1301px) and (max-width:1400px) {
     .hero-sec  {
-        padding: 0 88px 56px;
+        padding: 50px 88px 56px;
     }
     .just-crypit{
         font-size: 84px;    

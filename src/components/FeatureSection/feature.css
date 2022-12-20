@@ -23,11 +23,11 @@ color: #fff;
     margin-top: 103px;
 }
 .feature1-details{
-    margin-right: 145px;
+    margin-right: 95px;
     width: 550px; 
 }
 .feature2-details{
-    margin-left: 145px;
+    margin-left: 95px;
     width: 550px; 
 }
 .feature1-heading{
@@ -76,7 +76,7 @@ margin-left: 90px;
     }
 
 .feature-img{
-    width: 333.32px;
+    /* width: 333.32px; */
 height: 436px;
 }
 .crypit-just{
@@ -121,8 +121,8 @@ margin-top: 100px;
         text-align: center;
     }
     .feature-img {
-        width: 258px;
-        height: 336px;
+        /* width: 258px; */
+        height: 344px;
     }
     .feature1-desc,.feature2-desc{
         margin-left: 0px;
