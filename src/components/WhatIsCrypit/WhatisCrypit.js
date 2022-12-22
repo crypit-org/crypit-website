@@ -6,7 +6,7 @@ function WhatisCrypit(props) {
   return (
     <div className="what-crypit-comp">
       <div style={{ paddingTop: 106 }}>
-        <div className="heading">What is crypit ?</div>
+        <div className="heading">What is CrypIT ?</div>
         <div className="underline" />
         <p className="paragraph">
           CrypIT is an unified crypto super app built to make the web3 journey
