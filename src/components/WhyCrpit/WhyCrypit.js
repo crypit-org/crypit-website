@@ -8,7 +8,7 @@ function WhyCrypit(props) {
         <div className='why-crypit'>
             <img src={WhyCrypIT} alt="why-crypit" title='Why CrypIT' className='why-crypit-img' />
             <div className='why-crypit-container'>
-            <div className='heading'>What is crypit ?</div>
+            <div className='heading'>Why CrypIT ?</div>
      <div className='underline'/>   
      <div className='container-data'>
         <div style={{display:'flex',alignItems:'center'}}>
