@@ -3,7 +3,7 @@ import "./feature.css";
 import SuperWallet from "../../assets/img-2.0/SuperWallet.png";
 import LearnImg from "../../assets/img-2.0/LearnImg.png";
 import CryptoToFiat from "../../assets/img-2.0/CrypItToFiat.png";
-import JustCrypit from "../../assets/img-2.0/just-crypit.svg";
+import JustCrypit from "../../assets/img-2.0/JustCrypIT.png";
 
 function Feature(props) {
   return (

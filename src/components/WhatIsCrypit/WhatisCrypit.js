@@ -1,6 +1,6 @@
 import React from "react";
 import "./crypit.css";
-import PhoneImg from "../../assets/img-2.0/WhatisCrypIt.png";
+import PhoneImg from "../../assets/img-2.0/whatCrypIT.png";
 
 function WhatisCrypit(props) {
   return (

@@ -1,5 +1,6 @@
 .what-crypit-comp{
     background: linear-gradient(105.76deg, rgba(255, 126, 17, 0.2) 1.35%, rgba(1, 31, 26, 0.2) 100%),url("../../assets/img-2.0/what-crypit-bg.png");
+    background-position: center;
     padding: 0px 120px;
     display: flex;
     flex-direction: row;
@@ -11,7 +12,7 @@
 
 .crypit-phone{
     height: 500px;
-    margin: 30px 0;
+    margin: 30px 0 0;
 }
 .heading{
     font-family: 'Montserrat';
