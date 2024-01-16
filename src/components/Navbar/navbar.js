@@ -137,7 +137,6 @@ function Navbar() {
               >
                 <div>{click ? <GrClose /> : <GiHamburgerMenu />}</div>
               </IconContext.Provider>
-              {/* <i className={click ? "fa fa-times" : "fa fa-bars"}></i> */}
             </div>
             </div>
         </nav>
